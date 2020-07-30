@@ -1,3 +1,124 @@
+.services .col-border2{
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.services .col-border1{
+border-right: 1px solid black;
+
+}
+
+.services .col-border3{
+    border-right: 1px solid black;
+}
+
+.services .col-border4{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.services .col-border5{
+    border-top: none;
+    border-bottom: none !important;
+    border-left: none !important;
+    border: 1px solid black;
+}
+
+.services .col-border6{
+border-right: 1px solid black;
+border-top: 1px solid black;
+}
+
+
+.services .dv{
+    color: orange;
+}
+
+.services .title{
+    color: orange;
+    font-weight: bold;
+}
+
+.services .border-title{
+    background-color: orange;
+    border: 1px solid orange;
+    height: 5px;
+    width: 30%;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.services .text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.services .img-hand img{
+    display: block;
+    margin: auto;
+}
+
+.services .img2 img{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.services .img-4 img{
+    margin-top: 60px;
+}
+
+.services .row-title{
+    color: orange;
+}
+
+.services .row-text{
+    text-align: justify;
+}
+
+.services .img3{
+    margin-top: 60px;
+}
+
+
+.services .img3 img{
+    width: 100%;
+}
+
+.services .bg-img2{
+    background-color: #5A8DFF;
+    height: 30px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    z-index: -1;
+    margin-top: -20px;
+}
+
+.services .bg-col-5{
+    background-color: #00DBD5;
+    height: 50px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    z-index: -1;
+    margin-top: -40px;
+}
+
+.services .bg-img4{
+    background-color: #FFC776;
+    height: 30px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    z-index: -1;
+    margin-top: -20px;
+}
+
 .introduce{
     padding-bottom: 65px;
 }
@@ -129,55 +250,63 @@
   }
 
 
-  @media screen and (max-width: 2500px) {
+@media screen and (max-width: 2500px) {
 
 }
 
 @media screen and (max-width: 1024px) {
-    .success2 .card::after {
-        width: 306px !important;
-    }
-    
-    .success2 .card-center::after {
-        width: 291px !important;
-    }
-    .introduce .img-computer img {
-        margin-top: 100px;
+    .services .img-4 img {
+        width: 100% !important;
+        margin-top: 98px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .success2 .card::after {
-        width: 227px !important;
-    }
-    
-    .success2 .card-center::after {
-        width: 212px !important;
-    }
-    .introduce .img-computer img {
-        margin-top: 155px;
+    .services .img-hand img {
+        margin-top: 50px !important;
     }
 }
 @media screen and (max-width: 576px) {
-    .pl-responsive{
-        padding-left: 15px !important;
+    .text-responsive{
+        text-align: center;
     }
-    .pr-responsive{
-        padding-right: 15px !important;
+    .services .title {
+        text-align: center;
     }
-    .success2 .card::after {
-        width: 303px !important;
+    .services .border-title {
+        margin: auto;
+        display: block;
+        position: unset;
     }
-    
-    .success2 .card-center::after {
-        width: 303px !important;
+    .col-border1{
+        border-right: none !important;
     }
-    .mt-responsive{
-        margin-top: 20px;
+    .services .col-border2 {
+        border-right: none !important;
     }
-    .introduce .border {
-        margin-bottom: 20px;
+    .services .col-border3 {
+        border-right: none !important;
+    }
+    .services .col-border4 {
+        border-top: 1px solid #dcd8d8 !important;
+        border-right: none !important;
+    }
+    .services .row-title {
+        text-align: center;
+    }
+    .services .col-border5 {
+        border: none;
+    }
+    .services .col-border6 {
+        border: none;
+    }
+    .services .img-4 img {
+        margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
+        display: block;
+    }
+    .services .img-4 img {
+        width: unset !important;
     }
 }

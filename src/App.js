@@ -1,15 +1,11 @@
 import React from 'react';
-import Header from './Containers/Header';
-import Footer from './Containers/Footer/index';
-import Introduce from './Containers/PageIntroduce';
-
+import { BrowserRouter as Router }  from 'react-router-dom';
+import Routers from './Routers';
 function App() {
   return (
-    <div>
-      <Header />
-      <Introduce />
-      <Footer />
-    </div>
+    <Router>
+      <Routers />
+    </Router>
   );
 }
 
