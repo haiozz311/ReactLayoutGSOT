@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import './style.css';
+import img from './asset';
 
 export default class Introduce extends Component {
     render() {
         return (
-            <div>
+            <div style={{paddingTop: '80px'}}>
                 <section className="introduce">
                     <div className="container">
                         <div className="row">
@@ -29,7 +30,7 @@ export default class Introduce extends Component {
                             </div>
                             <div className="col-xs-12 col-sm-12 col-md-5 ml-auto">
                                 <div className="img-computer">
-                                    <img src="./images/xuat file2-45.png"/>
+                                    <img src={img.imgComputer}/>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +39,7 @@ export default class Introduce extends Component {
                 <section className="success">
                     <div className="container-fluid BG p-0">
                         <div className="img">
-                            <img src="./images/xuat file2-38.png"/>
+                            <img src={img.imgSuccess}/>
                         </div>
                     </div>
                 </section>
@@ -48,7 +49,7 @@ export default class Introduce extends Component {
                             <div className="row">
                                 <div className="col-xs-12 col-sm-12 col-md-4 pl-0 pl-responsive mt-responsive">
                                     <div className="card h-100">
-                                        <img className="card-img-top" src="./images/xuat file2-39.png" alt/>
+                                        <img className="card-img-top" src={img.imgCard1} alt/>
                                         <div className="card-body">
                                             <h4 className="card-title">THẤU HIỂU</h4>
                                             <p className="card-text">
@@ -63,7 +64,7 @@ export default class Introduce extends Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-12 col-md-4 mt-responsive">
                                     <div className="card card-center h-100">
-                                        <img className="card-img-top" src="./images/hoanggeiiiiii.png" alt/>
+                                        <img className="card-img-top" src={img.imgCard2} alt/>
                                         <div className="card-body">
                                             <h4 className="card-title">TIỆN ÍCH</h4>
                                             <p className="card-text">
@@ -78,7 +79,7 @@ export default class Introduce extends Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-12 col-md-4 pr-0 pr-responsive mt-responsive">
                                     <div className="card h-100">
-                                        <img className="card-img-top" src="./images/xuat file2-49.png" alt/>
+                                        <img className="card-img-top" src={img.imgCard3} alt/>
                                         <div className="card-body">
                                             <h4 className="card-title">TẬN TÂM</h4>
                                             <p className="card-text">
@@ -97,14 +98,11 @@ export default class Introduce extends Component {
                 <section className="datagram">
                     <div className="container">
                         <div className="img">
-                            <img src="./images/hoangngugeogeingu.png"/>
+                            <img src={img.imgDiagram} alt=""/>
                         </div>
                     </div>
                 </section>
-                <section className="section7"
-                    style={
-                        {paddingBottom: 500}
-                }>
+                <section className="section7">
                     <div className="title">
                         <h1>KHÁCH HÀNG CỦA GSOT</h1>
                         <div className="line1"></div>
@@ -112,19 +110,19 @@ export default class Introduce extends Component {
                     <div className="container">
                         <div className="row justify-content-center mt-3">
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cola.png"/>
+                                <img className="rsi" src={img.imgCocaGray}/>
                             </div>
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cocain.PNG"/>
+                                <img className="rsi" src={img.imgCocaRed}/>
                             </div>
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cola.png"/>
+                                <img className="rsi" src={img.imgCocaGray}/>
                             </div>
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cola.png"/>
+                                <img className="rsi" src={img.imgCocaGray}/>
                             </div>
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cola.png"/>
+                                <img className="rsi" src={img.imgCocaGray}/>
                             </div>
                         </div>
                         <div className="row"
@@ -132,19 +130,19 @@ export default class Introduce extends Component {
                                 {justifyContent: "center"}
                         }>
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cola.png"/>
+                                <img className="rsi" src={img.imgCocaGray}/>
                             </div>
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cola.png"/>
+                                <img className="rsi" src={img.imgCocaGray}/>
                             </div>
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cola.png"/>
+                                <img className="rsi" src={img.imgCocaGray}/>
                             </div>
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cola.png"/>
+                                <img className="rsi" src={img.imgCocaGray}/>
                             </div>
                             <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src="./images/cola.png"/>
+                                <img className="rsi" src={img.imgCocaGray}/>
                             </div>
                         </div>
                     </div>
