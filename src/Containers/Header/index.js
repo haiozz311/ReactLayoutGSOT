@@ -8,7 +8,7 @@ export default class Header extends Component {
     render() {
         return (
             <header className="header position-relative">
-                <ul className="contact">
+                <ul className="contact-header">
                     <li>
                         <i className="fas fa-phone-alt"/>
                     </li>
@@ -55,7 +55,8 @@ export default class Header extends Component {
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"/>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+                    <div className="BG-responsive"></div>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active navitem">
                                 <a className="nav-link" href="#">
