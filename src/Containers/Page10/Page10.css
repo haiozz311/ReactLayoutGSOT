@@ -1,0 +1,126 @@
+body .breadcrumb-item+.breadcrumb-item::before{
+    content: "-";   
+}
+body .breadcrumb {
+    background-color: transparent;
+}
+.breadcrumb a{
+    color: black;
+    font-size: 16px;
+}
+body .breadcrumb .active{
+    color: #FD9701;
+}
+.section10 .hr{
+    background-color: #FD9701;    
+    position: relative;
+}
+.section10 .hr::After{
+    content: "";
+    background-color: #FD9701;
+    display: block;
+    width: 7%;
+    height: 3px;
+    position: absolute;
+    top: -4px;
+    left:230px; 
+}
+.fa-quote-left{
+    color: #006768;
+}
+.fa-quote-right{
+    margin-left: 255px;
+    color: #006768;
+}
+.section10 .section10__title{
+    text-align: center;
+}
+.section10 .section10__title h3{
+    font-size: 33px;
+    color: #FD9701;
+}
+.section10 .section10__title__item p{
+    text-indent: 25px;
+    font-size: 16px;
+}
+
+.section10 h4{
+    font-size: 20px;
+    color: #FD9701;
+    border-bottom: 1px solid #FD9701;
+    padding: 10px;
+}
+.info__title h4{
+    font-size: 20px;
+    border-bottom: 1px solid #FD9701;
+    width: 35%;
+}
+.info__title .dev{
+    color: #FD9701;
+    font-weight: 500;
+}
+.info__title h4::after{
+    content: "";
+    background-color: #FD9701;
+    width: 9%;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.info__title1 h4::after{
+    content: "";
+    background-color: #FD9701;
+    width: 15%;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.info__title option{
+    font-size: 16px;
+}
+.section10__title{
+    text-align: center;
+}
+.section10 .search i{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section10 .custom-btn{
+    background: linear-gradient(to right,#0DAE4C,#006768);
+}
+input::placeholder{
+    text-align: center;
+}
+.custom-content button{
+    background: linear-gradient(to right,#0DAE4C,#006768);
+}
+
+.section10 .fa-search{
+    margin-left: 10px;
+}
+.info__title .resize {
+    margin-bottom: 42px;
+}
+.custom-form-group{
+    font-size: 12px;
+}
+.custom-form-group__item {
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+    font-size: 11px;
+}
+.custom-form-group__item svg:not(:root).svg-inline--fa {
+    margin: 0 10px;
+    font-size: 15px;
+    color: #737373;
+}
+.custom-form-group__item i {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #737373;
+}
