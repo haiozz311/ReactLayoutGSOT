@@ -148,7 +148,8 @@ body{
     z-index: 9999;
     list-style: none;
     position: fixed;
-    top: 370px
+    top: 360px;
+    left: 40px;
 }
 
 .contact-header li{

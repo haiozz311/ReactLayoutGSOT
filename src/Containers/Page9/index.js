@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './style.css';
 import img from './asset';
 
-export default class Services2 extends Component {
+export default class Page9 extends Component {
     render() {
         return (
             <div style={{paddingTop: '80px'}}>
