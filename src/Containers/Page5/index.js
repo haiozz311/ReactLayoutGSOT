@@ -7,7 +7,7 @@ import img from './asset/index';
 export default class Page5 extends Component {
     render() {
         return (
-            <div>
+            <div className="page5">
             <section className="TMS ">
               <div className="container-fluid ">
                 <div className="container">
@@ -118,7 +118,7 @@ export default class Page5 extends Component {
                 </div>
               </div>
             </section>
-            <section className="VIETDATA " style={{ paddingBottom: 1000 }}>
+            <section className="VIETDATA ">
               <div className="container-fluid ">
                 <div className="container">
                   <div className="row" style={{ paddingBottom: 100 }}>

@@ -67,19 +67,19 @@ body .breadcrumb .active{
 .section12 .item:last-child{
     margin-bottom: 0px;
 }
-.item__right h3{
+.section12 .item__right h3{
     font-size: 19px;
     margin-top: 80px;
     margin-bottom: 30px;
 }
-.item__right h3::after{
+.section12 .item__right h3::after{
     content: "";
     background-color: #FD9701;
     display: block;
     width: 20%;
     height: 3px;
 }
-.input{
+.section12 .input{
     background-color: #F2F2F2;
     color:#A5A7AA;
     border-radius: 5px;
@@ -87,13 +87,13 @@ body .breadcrumb .active{
     font-size: 12px;
     margin-bottom: 10px;
 }
-input
+.section12 input
 {
     background-color: transparent;
     border:none;
     width: 70%;
 }
-textarea
+.section12 textarea
 {
     background-color: transparent;
     border:none;
@@ -106,17 +106,17 @@ textarea
     .section12 .cover{
         font-size: 60px;
     }
-    .map iframe{
+    .section12 .map iframe{
         width: 200px;
     }
-    .item__right h3{
+    .section12 .item__right h3{
         margin-top: 20px;
         margin-bottom: 0px;
     }
   }
   
   @media screen and (max-width: 992px) {
-    .img-right{
+    .section12 .img-right{
         display: none;
     }
   }
@@ -128,7 +128,7 @@ textarea
     .section12 .cover{
         font-size: 40px;
     }
-    .map iframe{
+    .section12 .map iframe{
         width: 100%;
     }
   }

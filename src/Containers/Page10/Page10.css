@@ -91,7 +91,7 @@ body .breadcrumb .active{
 .section10 .custom-btn{
     background: linear-gradient(to right,#0DAE4C,#006768);
 }
-input::placeholder{
+.section10 input::placeholder{
     text-align: center;
 }
 .custom-content button{

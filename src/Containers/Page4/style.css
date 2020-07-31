@@ -163,6 +163,10 @@
     font-family: Fontawesome;
 }
 
+.contact input::placeholder{
+    padding-left: 0px !important;
+}
+
 .contact input:first-child{
     margin-top: 0;
 }

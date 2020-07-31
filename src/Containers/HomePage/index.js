@@ -5,7 +5,7 @@ import img from './asset/index';
 export default class HomePage extends Component {
     render() {
         return (
-            <div>
+            <div className="homepage">
                 <section className="about-us">
                     <div className="container-fluid">
                         <div className="row">

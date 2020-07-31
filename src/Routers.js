@@ -13,6 +13,7 @@ import Page9 from './Containers/Page9';
 import Page12 from './Containers/Page12'
 import Page8 from './Containers/Page8';
 import Page7 from './Containers/Page7';
+import Page6 from './Containers/Page6';
 
 class Routes extends React.Component {
 
@@ -26,6 +27,7 @@ class Routes extends React.Component {
                     <Route path='/page3' exact component={Services} />
                     <Route path='/page4' exact component={Services2} />
                     <Route path='/Page5' exact component={Page5} />
+                    <Route path='/Page6' exact component={Page6} />
                     <Route path='/Page7' exact component={Page7} />
                     <Route path='/Page8' exact component={Page8} />
                     <Route path='/page9' exact component={Page9} />
