@@ -17,9 +17,7 @@ class Routes extends React.Component {
                     <Route path='/' exact component={Introduce} />
                     <Route path='/dichvu' exact component={Services} />
                     <Route path='/Page5' exact component={Page5} />
-                    <Route path='/' exact component={Introduce}/>
-                    <Route path='/dichvu' exact component={Services}/>
-                    <Route path='/dichvu2' exact component={Services2}/>
+                    <Route path='/dichvu2' exact component={Services2} />
                 </Switch>
                 <Footer />
             </div>
