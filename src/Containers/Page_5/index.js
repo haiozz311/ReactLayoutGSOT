@@ -118,10 +118,10 @@ export default class Page5 extends Component {
                 </div>
               </div>
             </section>
-            <section className="VIETDATA " style={{ paddingBottom: 1000 }}>
+            <section className="VIETDATA ">
               <div className="container-fluid ">
                 <div className="container">
-                  <div className="row" style={{ paddingBottom: 100 }}>
+                  <div className="row" >
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
                       <h3 className="text-title mb-0">
                         TRANG THÔNG TIN TRUNG TÂM DỮ LIỆU KINH TẾ VIỆT NAM VIETDATA.VN
