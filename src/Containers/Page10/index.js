@@ -75,7 +75,8 @@ export default class Page10 extends Component {
                                             <p className="m-0 dev">DOT NET DEVELOPER</p>
                                         </div>
                                         <div className="col-6 text-center">
-                                            <p className="m-0"><i className="fa fa-map-marker-alt" /> Hồ Chí Minh</p>
+                                            <p className="m-0"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;
+ Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +95,8 @@ export default class Page10 extends Component {
                                             <p className="m-0 dev">NHÂN VIÊN KẾ TOÁN</p>
                                         </div>
                                         <div className="col-6 text-center">
-                                            <p className="m-0"><i className="fa fa-map-marker-alt" /> Hồ Chí Minh</p>
+                                            <p className="m-0"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;
+ Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
@@ -113,7 +115,7 @@ export default class Page10 extends Component {
                                             <p className="m-0 dev">DOT NET DEVELOPER</p>
                                         </div>
                                         <div className="col-6 text-center">
-                                            <p className="m-0"><i className="fa fa-map-marker-alt" /> Hồ Chí Minh</p>
+                                            <p className="m-0"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
@@ -132,7 +134,8 @@ export default class Page10 extends Component {
                                             <p className="m-0 dev">NHÂN VIÊN KẾ TOÁN</p>
                                         </div>
                                         <div className="col-6 text-center">
-                                            <p className="m-0"><i className="fa fa-map-marker-alt" /> Hồ Chí Minh</p>
+                                            <p className="m-0"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;
+ Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
