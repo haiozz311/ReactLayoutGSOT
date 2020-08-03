@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './Page10.css'
 import img from './asset/index';
-
 export default class Page10 extends Component {
     render() {
         return (
@@ -13,16 +12,16 @@ export default class Page10 extends Component {
                             <li className="breadcrumb-item active" aria-current="page">Tuyển dụng</li>
                         </ol>
                     </nav>
-                    <hr className="hr" />
+                    <hr className="hr m-0 p-0" />
                     <div className="row">
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 section10__title custom-icons">
+                        <div className="col-12 col-sm-12 col-md-6 col-lg-7 section10__title custom-icons">
                             <h3 className="m-0">HÃY CÙNG GSOT</h3>
                             <h3 className="m-0">THAY ĐỔI THẾ GIỚI</h3>
                             <div className="section10__title__item text-left">
-                                <i className="fa fa-quote-left ml-4" />
+                                <i className="fa fa-quote-left" />
                                 <p className="m-0">
                                     Bằng một khát vọng không ngừng nghỉ, GSOT phấn đấu trở thành Công ty phát triển phần mềm
-            <span className="font-weight-bold">thông minh</span> có <span className="font-weight-bold">uy
+            <span className="font-weight-bold"> thông minh </span> có <span className="font-weight-bold">uy
               tín</span> và vị thế <span className="font-weight-bold">hàng đầu</span> tại Việt Nam và khu
             vực Châu Á.
           </p>
@@ -38,23 +37,23 @@ export default class Page10 extends Component {
                                 <i className="fa fa-quote-right" />
                             </div>
                         </div>
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 position-relative">
-                            <img src={img.banner} className="img-fluid img__layout9" alt />
+                        <div className="col-12 col-sm-12 col-md-6 col-lg-5 position-relative">
+                            <img src={img.banner} className=" img__layout9" alt />
                         </div>
                     </div>
                     <div className="row ">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-9 info__title custom-content">
                             <div className="resize">
-                                <div className="position-relative">
-                                    <h4 className="font-weight-bold">VỊ TRÍ TUYỂN DỤNG</h4>
+                                <div className="position-relative resize__content" >
+                                    <h4>VỊ TRÍ TUYỂN DỤNG</h4>
                                 </div>
                                 <div className="row">
                                     <div className="col-4 col-sm-4 col-md-6 col-lg-6">
-                                        <input type="text" className="form-control" placeholder="Nhập từ khóa tìm kiếm" />
+                                        <input type="text" style={{ width: "455px", height: "26px" }} className="form-control" placeholder="Nhập từ khóa tìm kiếm" />
                                     </div>
                                     <div className="col-4 col-sm-4 col-md-3 col-lg-3">
                                         <div className="form-group">
-                                            <select className="form-control form-custom" id="exampleFormControlSelect1">
+                                            <select style={{ width: "168px", height: "26px" }} className="form-control form-custom" id="exampleFormControlSelect1">
                                                 <option>Chọn tỉnh/thành</option>
                                                 <option>2</option>
                                                 <option>3</option>
@@ -64,7 +63,7 @@ export default class Page10 extends Component {
                                         </div>
                                     </div>
                                     <div className="col-4 col-sm-4 col-md-3 col-lg-3">
-                                        <button className="btn custom-btn w-100 text-white">Tìm Kiếm <i className="fa fa-search text-white" /></button>
+                                        <button className="btn custom-btn w-100 text-white" >Tìm Kiếm <i className="fa fa-search text-white" /></button>
                                     </div>
                                 </div>
                             </div>
@@ -75,19 +74,19 @@ export default class Page10 extends Component {
                                             <p className="m-0 dev">DOT NET DEVELOPER</p>
                                         </div>
                                         <div className="col-6 text-center">
-                                            <p className="m-0"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;
+                                            <p className="m-0"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
  Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-3 text-center">
-                                    <p className="m-0 font-weight-bold">03/08/2018</p>
+                                    <p className="m-0 time">03/08/2018</p>
                                 </div>
                                 <div className="col-3 text-center">
                                     <button className="btn w-100 text-white">Apply</button>
                                 </div>
                             </div>
-                            <hr />
+                            <hr className="set__hr" />
                             <div className="row">
                                 <div className="col-6">
                                     <div className="row">
@@ -95,19 +94,19 @@ export default class Page10 extends Component {
                                             <p className="m-0 dev">NHÂN VIÊN KẾ TOÁN</p>
                                         </div>
                                         <div className="col-6 text-center">
-                                            <p className="m-0"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;
+                                            <p className="m-0"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
  Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-3 text-center">
-                                    <p className="m-0 font-weight-bold">03/08/2018</p>
+                                    <p className="m-0 time">03/08/2018</p>
                                 </div>
                                 <div className="col-3 text-center">
                                     <button className="btn w-100 text-white">Apply</button>
                                 </div>
                             </div>
-                            <hr />
+                            <hr className="set__hr" />
                             <div className="row">
                                 <div className="col-6">
                                     <div className="row">
@@ -115,18 +114,18 @@ export default class Page10 extends Component {
                                             <p className="m-0 dev">DOT NET DEVELOPER</p>
                                         </div>
                                         <div className="col-6 text-center">
-                                            <p className="m-0"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Hồ Chí Minh</p>
+                                            <p className="m-0"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-3 text-center">
-                                    <p className="m-0 font-weight-bold">03/08/2018</p>
+                                    <p className="m-0 time">03/08/2018</p>
                                 </div>
                                 <div className="col-3 text-center">
                                     <button className="btn w-100 text-white">Apply</button>
                                 </div>
                             </div>
-                            <hr />
+                            <hr className="set__hr" />
                             <div className="row">
                                 <div className="col-6">
                                     <div className="row">
@@ -134,19 +133,19 @@ export default class Page10 extends Component {
                                             <p className="m-0 dev">NHÂN VIÊN KẾ TOÁN</p>
                                         </div>
                                         <div className="col-6 text-center">
-                                            <p className="m-0"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;
+                                            <p className="m-0"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
  Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-3 text-center">
-                                    <p className="m-0 font-weight-bold">03/08/2018</p>
+                                    <p className="m-0 time">03/08/2018</p>
                                 </div>
                                 <div className="col-3 text-center">
                                     <button className="btn w-100 text-white">Apply</button>
                                 </div>
                             </div>
-                            <hr />
+                            <hr className="set__hr" />
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-3 custom-form-group ">
                             <div className="info__title1 position-relative">
