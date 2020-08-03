@@ -42,6 +42,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
+<<<<<<< HEAD
   <script src="%PUBLIC_URL%/bootstrap/js/jquery-3.5.1.min.js"></script>
   <script src="%PUBLIC_URL%/bootstrap/js/bootstrap.min.js"></script>
   <script>
@@ -52,6 +53,19 @@
         } else {
           $(".navbar-fixed-top").css("background", "transparent");
         }
+=======
+    <script src="%PUBLIC_URL%/bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script src="%PUBLIC_URL%/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+          $(window).scroll(function () {
+              if ($(document).scrollTop() > 50) {
+                  $(".navbar-fixed-top").css("background", "linear-gradient(to right,rgb(13,176,75),rgb(0,103,104))");
+              } else {
+                  $(".navbar-fixed-top").css("background", "transparent");
+              }
+          });
+>>>>>>> ce11d9e32f7d68df2d994516632c42cd50ffb80e
       });
     });
   </script>

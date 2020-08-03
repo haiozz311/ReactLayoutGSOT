@@ -7,7 +7,10 @@ import img from './asset/index';
 export default class Header extends Component {
     render() {
         return (
-            <header className="header position-relative">
+            <header className="header position-relative"
+                style={
+                    {paddingBottom: '30px'}
+            }>
                 <ul className="contact-header">
                     <li>
                         <i className="fas fa-phone-alt" />
@@ -70,6 +73,11 @@ export default class Header extends Component {
                             </li>
                             <li className="nav-item navitem">
                                 <a className="nav-link" href="#">
+                                    DỰ ÁN
+                                </a>
+                            </li>
+                            <li className="nav-item navitem">
+                                <a className="nav-link" href="#">
                                     BẢNG TIN
                                 </a>
                             </li>
@@ -86,8 +94,8 @@ export default class Header extends Component {
                         </ul>
                         <form className="form-inline my-2 my-lg-0"
                             style={
-                                { marginLeft: 50 }
-                            }>
+                                {marginLeft: 10}
+                        }>
                             <button className="btn btn-outline-success my-2 my-sm-0" type="submit"
                                 style={
                                     { border: "none" }
@@ -111,7 +119,7 @@ export default class Header extends Component {
                                 className="nav-item position-relative active">
                                 <div className="half-circle" />
                                 <a className="nav-link" href="#">
-                                    1
+                                    0
                                 </a>
                             </li>
                             <li data-target="#carouselId"
@@ -119,7 +127,31 @@ export default class Header extends Component {
                                 className="nav-item position-relative">
                                 <div className="half-circle" />
                                 <a className="nav-link" href="#">
+                                    1
+                                </a>
+                            </li>
+                            <li data-target="#carouselId"
+                                data-slide-to={2}
+                                className="nav-item position-relative">
+                                <div className="half-circle"/>
+                                <a className="nav-link" href="#">
                                     2
+                                </a>
+                            </li>
+                            <li data-target="#carouselId"
+                                data-slide-to={3}
+                                className="nav-item position-relative">
+                                <div className="half-circle"/>
+                                <a className="nav-link" href="#">
+                                    3
+                                </a>
+                            </li>
+                            <li data-target="#carouselId"
+                                data-slide-to={4}
+                                className="nav-item position-relative">
+                                <div className="half-circle"/>
+                                <a className="nav-link" href="#">
+                                    4
                                 </a>
                             </li>
                         </ul>
@@ -132,6 +164,33 @@ export default class Header extends Component {
                                 }
                                 alt="First slide" />
                         </div>
+                        <div className="carousel-item">
+                        <img style={
+                                {width: "100%"}
+                            }
+                            src={
+                                img.slide
+                            }
+                            alt="Second slide"/>
+                    </div>
+                    <div className="carousel-item">
+                    <img style={
+                            {width: "100%"}
+                        }
+                        src={
+                            img.slide
+                        }
+                        alt="Second slide"/>
+                </div>
+                <div className="carousel-item">
+                <img style={
+                        {width: "100%"}
+                    }
+                    src={
+                        img.slide
+                    }
+                    alt="Second slide"/>
+            </div>
                         <div className="carousel-item">
                             <img style={
                                 { width: "100%" }

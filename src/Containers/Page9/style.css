@@ -1,10 +1,25 @@
+.container{
+    width: 1170px !important;
+    padding: 0;
+}
+
+@font-face {
+    font-family: SFU;
+    src: url(./Font-family/SFUIDisplay-Regular.otf);
+}
+
+.content1{
+    padding-bottom: 30px;
+}
+
 .content1 .left .text-title{
     margin-bottom:15px;
+    font-family: SFU;
 }
 .content1 .left .text-title1{
     font-size:16px;
     line-height: 19.2px;
-    font-family:SFDisplay-Regular;
+    font-family: SFU;
 }
 .content1 .left .text-title2{
     font-size:16px;
@@ -39,20 +54,20 @@
 .content1 .left .mon{
     font-size:15.53px;
     line-height: 18.63px;
-    font-family:SFDisplay-Regular;
+    font-family: SFU;
     color:#f05a21;
 }
 .content1 .left .day{
     font-size:16px;
     line-height: 18.63px;
-    font-family:SFDisplay-Bold;
+    font-family: SFU;
     color:#f05a21;
 }
 .content1 .left .text1{
     padding:10px 0px !important;
     font-size:24px;
     line-height:32.4px;
-    font-family:SFDisplay-SemiBold;
+    font-family: SFU;
     color:#f05a21;
     margin-left: 40px;
     margin-right:20px ;
@@ -60,7 +75,7 @@
 .content1 .left .text2{
     font-size:24px;
     line-height:32.4px;
-    font-family:SFDisplay-SemiBold;
+    font-family: SFU;
     color:#f05a21;
 }
 .content1 .left .text1::before{
@@ -83,20 +98,24 @@
 .content1 .text3{
     text-align: justify;
     text-indent: 40px;
+    font-family: SFU;
 }
 
 .content1 .hr3{
     background-color: #57585b;
+    margin: 0;
+    margin-bottom: 15px !important;
 }
 
 .content1 .text4 p{
     text-align: justify;
     text-indent: 40px;
     margin-bottom: 10px;
+    font-family: SFU;
 }
 
 .content1 .img2{
-    height: 366px;
+    height: 335px;
 }
 
 .content1 .img2 img{
@@ -121,7 +140,8 @@
 .content1 .text5 p{
     text-align: justify;
     text-indent: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
+    font-family: SFU;
 }
 
 .content1 .card-group .img{
