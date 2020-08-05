@@ -3,6 +3,15 @@ import './style.css';
 import img from './asset';
 
 export default class Page9 extends Component {
+    line() {
+        document.getElementById("line").style.display = "block";
+        document.getElementById("line2").style.display = "none";
+    }
+
+    line2() {
+        document.getElementById("line").style.display = "none";
+        document.getElementById("line2").style.display = "block";
+    }
     render() {
         return (
             <section className="content1">
@@ -127,9 +136,10 @@ export default class Page9 extends Component {
                                     }
                             }>
                                 <div className="bar position-relative">
-                                    <div className="line"/>
-                                    <span className="mr-2">TIN GSOT |</span>
-                                    <span>
+                                    <div className="line" id="line"/>
+                                    <div className="line2" id="line2"/>
+                                    <span className="mr-2" onClick={this.line} style={{cursor: 'pointer'}}>TIN GSOT |</span>
+                                    <span style={{cursor: 'pointer'}} onClick={this.line2}>
                                         KIẾN THỨC CÔNG NGHỆ{" "}
                                         <img className="img"
                                             style={
