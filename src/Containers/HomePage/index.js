@@ -337,6 +337,14 @@ export default class HomePage extends Component {
                             </div>
                         </div>
                         <div className="position-relative">
+                            <div className="rotate custom-route">
+                                <img className="d-block ml-auto" src={img.img5} alt />
+                            </div>
+                            <div className="icon-left custom-route-right">
+                                <img className="d-block ml-auto" src={img.img5} alt />
+                            </div>
+                        </div>
+                        <div className="position-relative">
                             <div className="circle2">
                             </div>
                         </div>

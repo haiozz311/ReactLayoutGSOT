@@ -391,3 +391,13 @@ a:hover{
 .carousel_info__item:hover .show_img{
   opacity: 1;
 }
+.custom-route{
+  position: absolute;
+  top: -195px;
+  left: 64px;
+}
+.custom-route-right{
+  position: absolute;
+  top: -195px;
+  right: 64px;
+}
