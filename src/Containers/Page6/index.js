@@ -97,7 +97,7 @@ export default class Page6 extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row m-0">
                                     <p className="text-newbill mb-1">
                                         <samp className="text-newbill1">– Kiểm hàng lên</samp>(Kiểm soát quá
                                                         trình giao hàng): Thêm, sửa, xóa các thông tin của nghiệp vụ kiểm
@@ -274,7 +274,7 @@ export default class Page6 extends Component {
                                     <br/>
                                 </div>
                                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgsotgroup&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%"
-                                    height={500}
+                                    height={1000}
                                     style={
                                         {
                                             border: "none",

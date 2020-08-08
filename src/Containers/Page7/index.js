@@ -3,6 +3,31 @@ import img from './asset/index'
 import './page7.css'
 
 export default class Page7 extends Component {
+
+
+  showline() {
+    document.getElementById("line-cn").style.display="block";
+    document.getElementById("line-GS").style.display="none";
+    document.getElementById("line-kt").style.display="none";
+  }
+  showline2() {
+    document.getElementById("line-cn").style.display="none";
+    document.getElementById("line-GS").style.display="block";
+    document.getElementById("line-kt").style.display="none";
+  }
+  showline3() {
+    document.getElementById("line-cn").style.display="none";
+    document.getElementById("line-GS").style.display="none";
+    document.getElementById("line-kt").style.display="block";
+  }
+  showline4() {
+    document.getElementById("line-new").style.display="block";
+    document.getElementById("line-hot").style.display="none";
+  }
+  showline5() {
+    document.getElementById("line-new").style.display="none";
+    document.getElementById("line-hot").style.display="block";
+  }
     render() {
         return (
           <section className="page7">
@@ -20,9 +45,10 @@ export default class Page7 extends Component {
                         role="tab"
                         aria-controls="pills-home"
                         aria-selected="true"
+                        onClick ={this.showline}
                       >
                         TIN CÔNG NGHỆ
-                        <div className="boder position-absolute" />
+                        <div className="line-cn position-absolute" id="line-cn" />
                       </a>
                     </li>
                     <li className="nav-item position-relative paddings">
@@ -34,9 +60,10 @@ export default class Page7 extends Component {
                         role="tab"
                         aria-controls="pills-profile"
                         aria-selected="false"
+                        onClick ={this.showline2}
                       >
                         TIN GSOTGROUP
-                        <div className="boder position-absolute" />
+                        <div className="line-GS position-absolute"  id="line-GS"  />
                       </a>
                     </li>
                     <li className="nav-item position-relative paddings ">
@@ -48,9 +75,10 @@ export default class Page7 extends Component {
                         role="tab"
                         aria-controls="pills-contact"
                         aria-selected="false"
+                        onClick ={this.showline3}
                       >
                         KIẾN THỨC CÔNG NGHỆ
-                        <div className="boder position-absolute" />
+                        <div className="line-kt position-absolute" id="line-kt" />
                       </a>
                     </li>
                   </ul>
@@ -69,7 +97,7 @@ export default class Page7 extends Component {
                       Hiện nay, khi mà các doanh nghiệp đã hiểu rõ được tầm quan trọng
                       của phần mềm nhân sự thì nhu cầu mua chúng ngày càng tăng cao.
                     </p>
-                    <p className="text-title1 mb-0">
+                    <p className="text-title1 mb-0" style={{marginTop:36 }}>
                       MON | <b>02.07.2020</b>{" "}
                       <img
                         className="img-muiten"
@@ -122,7 +150,7 @@ export default class Page7 extends Component {
                       đánh giá năng lực của nhân viên và tăng hiệu suất làm việc. Tuy
                       vậy, trước nhiều công ty phần mềm ra đời.
                     </p>
-                    <p className="text-title1 mb-0">
+                    <p className="text-title1 mb-0" style={{marginTop:36 }}>
                       MON | <b>02.07.2020</b>{" "}
                       <img
                         className="img-muiten"
@@ -229,12 +257,13 @@ export default class Page7 extends Component {
                         role="tab"
                         aria-controls="pills-home"
                         aria-selected="true"
+                        onClick ={this.showline}
                       >
-                        BÀI VIẾT MỚI <div className="boder position-absolute" />
+                        BÀI VIẾT MỚI <div className="line-new position-absolute" id="line-new"/>
                       </a>
                     </li>
                     <samp className="cols position-absolute">|</samp>
-                    <li className="nav-item text-hot">
+                    <li className="nav-item text-hot position-relative ">
                       <a
                         className="nav-link  "
                         id="pills-profile-tab"
@@ -243,9 +272,10 @@ export default class Page7 extends Component {
                         role="tab"
                         aria-controls="pills-profile"
                         aria-selected="false"
+                        onClick ={this.showline5}
                       >
                         HOT
-                        <div className="boder position-absolute" />
+                        <div className="line-hot position-absolute" id="line-hot"/>
                       </a>
                     </li>
                   </ul>

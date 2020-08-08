@@ -16,6 +16,13 @@
     font-family:sanfraN-medium ;
     src: url(./Font-family/SFUIDisplay-Medium.otf);
 }
+.conten{
+    width: 85%;
+    margin: auto;
+}
+.page5 .text-tms{
+    padding-left: 113px;
+}
 .page5 .TMS .text-title{
     margin-top: 94px;
     font-size: 27px;
@@ -28,7 +35,8 @@
     width: 56px;
 }
 .page5 .TMS .text{
-    width: 500px;
+    text-indent: 1rem;
+    width: 416px;
     text-align: justify;
     color: #58595B;
     font-size: 16px;
@@ -38,7 +46,7 @@
 }
 .page5 .TMS .btn{
     height: 33px;
-    font-family: sanfraN-bold;
+    font-weight: 700;
     color: #F15A22;
     font-size: 17px;
     border-color: red;
@@ -54,7 +62,7 @@
     margin-top: -36px;
 }
 .page5 .TMS  .button{
-    width:143px;
+    width:119px;
     height: 37px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -77,9 +85,9 @@
 }
 .page5 .TMS .font-button-p5{
     font-family:sanfraN-bold ;
-    font-size: 17px;
-    color: #F15A22;
-    padding-left: 30px;
+    font-size: 16px;
+    color: #ff3900;
+    padding-left: 45px;
     padding-top: 5px;
 }
 .page5 .TMS .img1{
@@ -107,19 +115,27 @@
 .page5 .TMS .row{
     padding-top: 46px;
 }
+.page5 .text-cmt{
+    padding-left: 72px;
+}
 .page5 .CMS{
     background-color: #EAEAEA;
     padding-bottom: 49px;
 }
+.page5 .text-right-cmt{
+  padding-left: 52px;
+}
 .page5 .CMS .img1{
     margin-top: 34px;
     margin-bottom: 49px;
-    width: 540px;
+    width: 506px;
+    height: 430px;
 }
 
 .page5 .CMS .img1 img{
     width: 100%;
     margin-left: -55px;
+    height: 100%;
 }
 .page5 .CMS .text-title{
     font-size: 27px;
@@ -163,7 +179,7 @@
     margin-top: -36px;
 }
 .page5 .CMS  .button{
-    width:143px;
+    width:119px;
     height: 37px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -188,15 +204,19 @@
 }
 .page5 .CMS .font-button-p5{
     font-family:sanfraN-bold ;
-    font-size: 17px;
-    color: #F15A22;
-    padding-left: 30px;
+    font-size: 16px;
+    color: #ff3900;
+    padding-left: 45px;
     padding-top: 5px;
+}
+.page5 .text-vietdata{
+    padding-left: 90px;
 }
 .page5 .VIETDATA .text-title{
     font-size: 27px;
     font-family:sanfran-semibold ;
     color: #F15A22;
+    width: 505px;
     margin-bottom: 7px !important;
 }
 .page5 .VIETDATA .boder{
@@ -204,14 +224,13 @@
     width: 56px;
 }
 .page5 .VIETDATA .text{
-    text-indent: 1rem;
-    width: 445px;
+    text-indent: 20px;
+    width: 411px;
     text-align: justify;
     color: #58595B;
-    font-size: 16px;
+    font-size: 15px;
     font-family:sanfran-regular ;
     margin-top: 12.5px;
-    margin-bottom: 37px !important;
 }
 .page5 .VIETDATA .btn{
     height: 33px;
@@ -231,7 +250,7 @@
     margin-top: -36px;
 }
 .page5 .VIETDATA  .button{
-    width:143px;
+    width:119px;
     height: 37px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -254,19 +273,24 @@
 }
 .page5 .VIETDATA .font-button-p5{
     font-family:sanfraN-bold ;
-    font-size: 17px;
-    color: #F15A22;
-    padding-left: 30px;
+    font-size: 16px;
+    color: #ff3900;
+    padding-left: 45px;
     padding-top: 5px;
 }
 
 .page5 .VIETDATA .row{
     padding-top: 46px;
 }
+.page5 .img-end{
+    margin-top: 47px;
+    height: 301px;
+    width: 469px;
+}
 .page5 .VIETDATA .img-circle{
-    margin-top: 50px;
-    height: 310px;
+    height: 100%;
     width: 100%;
+    
 }
 
 
@@ -281,6 +305,18 @@
     }
     .page5 .CMS{
         margin-top: 98px;
+    }
+    .page5 .text-tms{
+        padding-left: 0px;
+    }
+    .page5 .text-cmt {
+     padding-left: 0px; 
+    }
+    .page5 .text-right-cmt{
+        padding-left: 0px;
+    }
+    .page5 .text-vietdata{
+        padding-left: 0px;
     }
 }
 
@@ -298,15 +334,33 @@
     .page5 .CMS{
         margin-top: 98px;
     }
-    .page5 .CMS .img1 {
-        margin-top: 200px !important;
-    }
+   
     .page5 .CMS .img1 {
         width: 370px !important;
     }
     .page5 .VIETDATA .text{
         width: 340px;
     }
+    .page5 .img-end {
+        margin-top: 78px;
+        width: unset; 
+        margin-left: 26px;
+    }
+    .page5 .text-tms{
+        padding-left: 0px;
+    }
+    .page5 .text-cmt {
+     padding-left: 0px; 
+    }
+    .page5 .text-right-cmt{
+        padding-left: 0px;
+    }
+    .page5 .text-vietdata{
+        padding-left: 0px;
+    }
+    /* .TMS .img-circle1{
+        display: none;
+    } */
 }
 @media screen and (max-width: 576px) {
     .page5 .TMS .text {
@@ -356,6 +410,7 @@
 
     .page5 .VIETDATA .text-title{
         text-align: center;
+         width: unset;
     }
 
     .page5 .VIETDATA .boder{
@@ -364,5 +419,24 @@
 
     .page5 .VIETDATA .text{
         width: 100%;
+    }
+    .page5 .img-end {
+         width: unset; 
+         margin-top: 0px;
+    }
+    .page5 .CMS .img1 img {
+        margin-left: unset;
+    }
+    .page5 .text-tms{
+        padding-left: 0px;
+    }
+    .page5 .text-cmt {
+     padding-left: 0px; 
+    }
+    .page5 .text-right-cmt{
+        padding-left: 0px;
+    }
+    .page5 .text-vietdata{
+        padding-left: 0px;
     }
 }
