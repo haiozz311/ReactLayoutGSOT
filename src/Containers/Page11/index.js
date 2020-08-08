@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Page11.css'
-import img from './asset/index'
+import img from './asset/index';
 export default class Page11 extends Component {
     render() {
         return (
@@ -12,16 +12,16 @@ export default class Page11 extends Component {
                             <li className="breadcrumb-item active" aria-current="page">Tuyển dụng</li>
                         </ol>
                     </nav>
-                    <hr className="hr" />
+                    <hr className="hr m-0 p-0" />
                     <div className="row">
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 section11__title custom-icons">
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-7 section10__title custom-icons">
                             <h3 className="m-0">HÃY CÙNG GSOT</h3>
                             <h3 className="m-0">THAY ĐỔI THẾ GIỚI</h3>
-                            <div className="section11__title__item text-left">
-                                <i className="fa fa-quote-left ml-4" />
+                            <div className="section10__title__item text-left">
+                                <i className="fa fa-quote-left" style={{ opacity: 0 }} />
                                 <p className="m-0">
                                     Bằng một khát vọng không ngừng nghỉ, GSOT phấn đấu trở thành Công ty phát triển phần mềm
-            <span className="font-weight-bold">thông minh</span> có <span className="font-weight-bold">uy
+            <span className="font-weight-bold"> thông minh </span> có <span className="font-weight-bold">uy
               tín</span> và vị thế <span className="font-weight-bold">hàng đầu</span> tại Việt Nam và khu
             vực Châu Á.
           </p>
@@ -34,23 +34,23 @@ export default class Page11 extends Component {
                                     GSOT luôn sẵn sàng
                                     chào đón bạn!
           </p>
-                                <i className="fa fa-quote-right" />
+                                <i className="fa fa-quote-right" style={{ opacity: 0 }} />
                             </div>
                         </div>
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 position-relative">
-                            <img src={img.banner} className="img-fluid img__layout9" alt />
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-5 position-relative ">
+                            <img src={img.banner} className=" img__layout9 d-sm-none d-lg-block" alt />
                         </div>
                     </div>
                     <div className="row ">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-9 custom-navs">
                             <ul className="nav nav-tabs position-relative" id="myTab" role="tablist">
-                                <li className="col-12 col-sm-12 col-md-4 col-lg-4 nav-item ">
+                                <li className="col-12 col-sm-12 col-md-12 col-lg-4 nav-item ">
                                     <a className="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">MÔ TẢ CÔNG VIỆC</a>
                                 </li>
-                                <li className="col-12 col-sm-12 col-md-4 col-lg-4 nav-item">
+                                <li className="col-12 col-sm-12 col-md-12 col-lg-4 nav-item">
                                     <a className="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">KINH NGHIỆM/KỸ NĂNG</a>
                                 </li>
-                                <li className="col-12 col-sm-12 col-md-4 col-lg-4 nav-item ">
+                                <li className="col-12 col-sm-12 col-md-12 col-lg-4 nav-item ">
                                     <a className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">THÔNG TIN LIÊN HỆ</a>
                                 </li>
                             </ul>
@@ -58,16 +58,15 @@ export default class Page11 extends Component {
                                 <div className="col-12 tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <div className="row">
                                         <div className="col-12 col-sm-12 col-md-4 col-lg-4 p-0 text-center">
-                                            <p><span className="font-weight-bold"><i className="fa fa-user-secret" aria-hidden="true" /> Chức Danh: </span>Nhân Viên Lập Trình</p>
+                                            <p><span style={{ fontFamily: "Bold" }}><i className="fa fa-user-secret" aria-hidden="true" /> Chức Danh: </span>Nhân Viên Lập Trình</p>
                                         </div>
                                         <div className="col-12 col-sm-12 col-md-3 col-lg-3 p-0 text-center">
-                                            <p><span className="font-weight-bold">
-                                                <i className="fa fa-life-ring" aria-hidden="true" />
-                    Nơi làm việc: </span>Hồ Chí Minh</p>
+                                            <p><span style={{ fontFamily: "Bold" }}>
+                                                <i className="fa fa-life-ring" aria-hidden="true" /> Nơi làm việc: </span>Hồ Chí Minh</p>
                                         </div>
                                         <div className="col-12 col-sm-12 col-md-5 col-lg-5 p-0 text-center">
-                                            <p><span className="font-weight-bold"><i className="fa fa-usd" aria-hidden="true" />
-                    Mức Lương: </span> 8.000.000-25.000.000 VNĐ</p>
+                                            <p><span style={{ fontFamily: "Bold" }}><i className="fa fa-usd" aria-hidden="true" />
+                                            &nbsp; Mức Lương: </span> 8.000.000-25.000.000 VNĐ</p>
                                         </div>
                                     </div>
                                     <div className="position-relative">
@@ -76,23 +75,23 @@ export default class Page11 extends Component {
                                     </div>
                                     <div className="row">
                                         <div className="col-12 col-sm-12 col-md-4 col-lg-4 p-0 text-center">
-                                            <p><span className="font-weight-bold"><i className="fa fa-briefcase" aria-hidden="true" />
-                    Công Việc: </span>Toàn thời gian cố định
+                                            <p><span style={{ fontFamily: "Bold" }}><i className="fa fa-briefcase" aria-hidden="true" />
+                                            &nbsp;Công Việc: </span> Toàn thời gian cố định
                 </p>
                                         </div>
                                         <div className="col-12 col-sm-12 col-md-3 col-lg-3 p-0 text-center">
-                                            <p><span className="font-weight-bold"><i className="fa fa-signal" />
-                    Cấp bật: </span>Chuyên viên</p>
+                                            <p><span style={{ fontFamily: "Bold" }}><i className="fa fa-signal" />
+                                            &nbsp;Cấp bật: </span> Chuyên viên </p>
                                         </div>
                                         <div className="col-12 col-sm-12 col-md-5 col-lg-5 p-0 text-center">
                                             <div className="row">
                                                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
-                                                    <p><span className="font-weight-bold"><i className="fa fa-user-md" aria-hidden="true" />
-                        Giới tính: </span> Nam/Nữ</p>
+                                                    <p><span style={{ fontFamily: "Bold" }}> <i className="fa fa-user-md" aria-hidden="true" />
+                                                    &nbsp;Giới tính: </span> Nam/Nữ </p>
                                                 </div>
                                                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
-                                                    <p><span className="font-weight-bold"><i className="fa fa-area-chart" aria-hidden="true" />
-                        Độ tuổi: </span> 20 - 40</p>
+                                                    <p><span style={{ fontFamily: "Bold" }}><i className="fa fa-area-chart" aria-hidden="true" />
+                                                    &nbsp;Độ tuổi: </span> 20 - 40 </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,7 +102,7 @@ export default class Page11 extends Component {
                                                 <i className="fa fa-desktop" aria-hidden="true" />
                                             </div>
                                         </div>
-                                        <h5 className="align-items-center">Mô tả chi tiết công việc:</h5>
+                                        <h5 style={{ fontFamily: "Bold" }} className="align-items-center">Mô tả chi tiết công việc:</h5>
                                         <div className="cover_icons">
                                             <p className="m-0"> <i className="fa fa-angle-right" aria-hidden="true" /> Phân tích,
                   thiết kế hệ
@@ -131,7 +130,7 @@ export default class Page11 extends Component {
                                                 <i className="fa fa-desktop" aria-hidden="true" />
                                             </div>
                                         </div>
-                                        <h5 className="align-items-center">Quyền lời &amp; chế độ:</h5>
+                                        <h5 style={{ fontFamily: "Bold" }} className="align-items-center">Quyền lời &amp; chế độ:</h5>
                                         <div className="cover_icons">
                                             <p className="m-0"> <i className="fa fa-angle-right" aria-hidden="true" /> Được hưởng đầy
                   đủ các quyền
@@ -155,11 +154,11 @@ export default class Page11 extends Component {
                                 <div className="col-12 tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                     <div className="row">
                                         <div className="col-6 p-0 text-center">
-                                            <p><span className="font-weight-bold"><i className="fa fa-user-secret" aria-hidden="true" /> Trình độ học vấn: </span>Cao đẳng – Đại học
+                                            <p><span style={{ fontFamily: "Bold" }}><i className="fa fa-user-secret" aria-hidden="true" /> Trình độ học vấn: </span>Cao đẳng – Đại học
                   chuyên ngành CNTT</p>
                                         </div>
                                         <div className="col-6 p-0 text-center">
-                                            <p><span className="font-weight-bold"><i className="fa fa-life-ring" aria-hidden="true" />
+                                            <p><span style={{ fontFamily: "Bold" }}><i className="fa fa-life-ring" aria-hidden="true" />
                     Kinh nghiệm: </span>Không yêu cầu kinh nghiệm
                 </p>
                                         </div>
@@ -238,7 +237,7 @@ export default class Page11 extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-sm-12 col-md-12 col-lg-3 custom-form-group">
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-3 custom-form-group ">
                             <div className="info__title1 position-relative">
                                 <h4>YÊU CẦU HỒ SƠ</h4>
                             </div>

@@ -16,7 +16,7 @@ export default class Page12 extends Component {
                     <div className="row ">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-9">
                             <hr className="hr m-0" />
-                            <div className="position-relative">
+                            <div className="position-relative section12__title">
                                 <h2 className="cover">LET BUILD SOMETHING GREATE. TOGETHER</h2>
                                 <h2 className="cover__text">LET BUILD SOMETHING GREATE. TOGETHER</h2>
                             </div>

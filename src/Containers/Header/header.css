@@ -185,9 +185,9 @@ body{
     .header .carousel ul {
         top: 370px !important;
     }
-    .carousel-item{
-        height: 425px;
-    }
+    /* .carousel-item{
+        height: 320px;
+    } */
     .navitemlast a {
         padding-left: 22px !important;
     }

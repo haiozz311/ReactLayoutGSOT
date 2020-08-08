@@ -13,8 +13,8 @@ export default class Page10 extends Component {
                         </ol>
                     </nav>
                     <hr className="hr m-0 p-0" />
-                    <div className="row">
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-7 section10__title custom-icons">
+                    <div className="row m-0">
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-7 text-md-center section10__title custom-icons">
                             <h3 className="m-0">HÃY CÙNG GSOT</h3>
                             <h3 className="m-0">THAY ĐỔI THẾ GIỚI</h3>
                             <div className="section10__title__item text-left">
@@ -38,22 +38,22 @@ export default class Page10 extends Component {
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-5 position-relative">
-                            <img src={img.banner} className=" img__layout9" alt />
+                            <img src={img.banner} className=" img__layout9 d-none d-lg-block" alt />
                         </div>
                     </div>
-                    <div className="row ">
+                    <div className="row m-0">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-9 info__title custom-content">
                             <div className="resize">
                                 <div className="position-relative resize__content" >
                                     <h4>VỊ TRÍ TUYỂN DỤNG</h4>
                                 </div>
                                 <div className="row">
-                                    <div className="col-4 col-sm-4 col-md-6 col-lg-6">
-                                        <input type="text" style={{ width: "455px", height: "26px" }} className="form-control" placeholder="Nhập từ khóa tìm kiếm" />
+                                    <div className="col-12 col-sm-4 col-md-6 col-lg-6">
+                                        <input type="text" className="form-control btn-search" placeholder="Nhập từ khóa tìm kiếm" />
                                     </div>
-                                    <div className="col-4 col-sm-4 col-md-3 col-lg-3">
+                                    <div className="col-6 col-sm-4 col-md-3 col-lg-3">
                                         <div className="form-group">
-                                            <select style={{ width: "168px", height: "26px" }} className="form-control form-custom" id="exampleFormControlSelect1">
+                                            <select className="form-custom custom_select" id="exampleFormControlSelect1">
                                                 <option>Chọn tỉnh/thành</option>
                                                 <option>2</option>
                                                 <option>3</option>
@@ -62,87 +62,88 @@ export default class Page10 extends Component {
                                             </select>
                                         </div>
                                     </div>
-                                    <div className="col-4 col-sm-4 col-md-3 col-lg-3">
-                                        <button className="btn custom-btn w-100 text-white" >Tìm Kiếm <i className="fa fa-search text-white" /></button>
+                                    <div className="col-6 col-sm-4 col-md-3 col-lg-3 text-right text-md-center ">
+                                        <button style={{ width: "134px", height: "29px", lineHeight: "14px" }} className="btn custom-btn text-white" >Tìm Kiếm <i style={{ paddingLeft: "14px" }} className="fa fa-search text-white" /></button>
                                     </div>
                                 </div>
                             </div>
-                            <div className="row">
-                                <div className="col-6">
+                            <div className="row custom-row_dev">
+                                <div style={{ paddingLeft: "0px" }} className="col-12 col-sm-6 col-md-6 col-lg-6">
                                     <div className="row">
-                                        <div className="col-6 text-center">
-                                            <p className="m-0 dev">DOT NET DEVELOPER</p>
-                                        </div>
-                                        <div className="col-6 text-center">
-                                            <p className="m-0"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
- Hồ Chí Minh</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-3 text-center">
-                                    <p className="m-0 time">03/08/2018</p>
-                                </div>
-                                <div className="col-3 text-center">
-                                    <button className="btn w-100 text-white">Apply</button>
-                                </div>
-                            </div>
-                            <hr className="set__hr" />
-                            <div className="row">
-                                <div className="col-6">
-                                    <div className="row">
-                                        <div className="col-6 text-center">
+                                        <div style={{ paddingLeft: "0px" }} className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
                                             <p className="m-0 dev">NHÂN VIÊN KẾ TOÁN</p>
                                         </div>
-                                        <div className="col-6 text-center">
-                                            <p className="m-0"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
+                                        <div className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                            <p className="m-0 cover_location"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
  Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-3 text-center">
+                                <div className="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
                                     <p className="m-0 time">03/08/2018</p>
                                 </div>
-                                <div className="col-3 text-center">
-                                    <button className="btn w-100 text-white">Apply</button>
+                                <div className="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                                    <button className="btn text-white apply">Apply</button>
                                 </div>
                             </div>
                             <hr className="set__hr" />
-                            <div className="row">
-                                <div className="col-6">
+                            <div className="row custom-row_dev">
+                                <div style={{ paddingLeft: "0px" }} className="col-12 col-sm-6 col-md-6 col-lg-6">
                                     <div className="row">
-                                        <div className="col-6 text-center">
-                                            <p className="m-0 dev">DOT NET DEVELOPER</p>
-                                        </div>
-                                        <div className="col-6 text-center">
-                                            <p className="m-0"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;Hồ Chí Minh</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-3 text-center">
-                                    <p className="m-0 time">03/08/2018</p>
-                                </div>
-                                <div className="col-3 text-center">
-                                    <button className="btn w-100 text-white">Apply</button>
-                                </div>
-                            </div>
-                            <hr className="set__hr" />
-                            <div className="row">
-                                <div className="col-6">
-                                    <div className="row">
-                                        <div className="col-6 text-center">
+                                        <div style={{ paddingLeft: "0px" }} className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
                                             <p className="m-0 dev">NHÂN VIÊN KẾ TOÁN</p>
                                         </div>
-                                        <div className="col-6 text-center">
-                                            <p className="m-0"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
+                                        <div className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                            <p className="m-0 cover_location"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
  Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-3 text-center">
+                                <div className="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
                                     <p className="m-0 time">03/08/2018</p>
                                 </div>
-                                <div className="col-3 text-center">
-                                    <button className="btn w-100 text-white">Apply</button>
+                                <div className="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                                    <button className="btn text-white apply">Apply</button>
+                                </div>
+                            </div>
+                            <hr className="set__hr" />
+                            <div className="row custom-row_dev">
+                                <div style={{ paddingLeft: "0px" }} className="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <div className="row">
+                                        <div style={{ paddingLeft: "0px" }} className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                            <p className="m-0 dev">NHÂN VIÊN KẾ TOÁN</p>
+                                        </div>
+                                        <div className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                            <p className="m-0 cover_location"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
+ Hồ Chí Minh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                                    <p className="m-0 time">03/08/2018</p>
+                                </div>
+                                <div className="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                                    <button className="btn text-white apply">Apply</button>
+                                </div>
+                            </div>
+                            <hr className="set__hr" />
+                            <div className="row custom-row_dev">
+                                <div style={{ paddingLeft: "0px" }} className="col-12 col-sm-6 col-md-6 col-lg-6">
+                                    <div className="row">
+                                        <div style={{ paddingLeft: "0px" }} className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                            <p className="m-0 dev">NHÂN VIÊN KẾ TOÁN</p>
+                                        </div>
+                                        <div className="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                            <p className="m-0 cover_location"><i class="fa fa-map-marker location" aria-hidden="true"></i>&ensp;
+ Hồ Chí Minh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                                    <p className="m-0 time">03/08/2018</p>
+                                </div>
+                                <div className="col-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                                    <button className="btn text-white apply">Apply</button>
                                 </div>
                             </div>
                             <hr className="set__hr" />

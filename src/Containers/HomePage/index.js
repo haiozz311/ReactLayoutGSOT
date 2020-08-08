@@ -1,303 +1,392 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import './HomePage.css';
 import './HomePageResposive.css';
 import img from './asset/index';
 export default class HomePage extends Component {
     render() {
         return (
-            <div className="homepage">
-                <section className="about-us">
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-12 col-sm-12 col-md-5 col-lg-5">
-                                <div className="row">
-                                    <div className="col-6">
-                                        <img className="img-fluid" src={img.img1} alt/>
-                                    </div>
-                                    <div className="col-6">
-                                        <img className="img-fluid" src={img.img2} alt/>
-                                    </div>
-                                    <div className="col-12">
-                                        <img className="img-fluid" src={img.img3} alt/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-12 col-md-7 col-lg-7 about-Right">
-                                <h1 className="title">VỀ CHÚNG TÔI</h1>
-                                <p className="about-Right__content">
-                                    Là công ty chuyên tư vấn, xây dựng và triển khai các giải pháp quản
-                                                lý thông minh bằng phần mềm trong toàn bộ hoạt động quản lý vận
-                                                hành, sản xuất, kinh doanh của doanh nghiệp. Các giải pháp của chúng
-                                                tôi được xây dựng dựa trên các công nghệ hiện đại nhất thế giới, phú
-                                                hợp với từng khách hàng cụ thể
-                                </p>
-                                <div className="text-right ml-auto">
-                                    <img style={
-                                            {
-                                                width: 150,
-                                                height: 50
-                                            }
-                                        }
-                                        src={img.img4}
-                                        alt/>
-                                </div>
-                            </div>
-                        </div>
-                        <hr/>
-                        <div className="position-relative">
-                            <div className="circle"></div>
-                        </div>
-                    </div>
-                </section>
-                <section className="info ">
-                    <div className="container-fluid">
-                        <div className="row ">
-                            <div className="col-12 col-sm-12 col-md-12 col-lg-4">
-                                <p className="info__co1">
-                                    VẤN ĐỀ
-                                    <br/>
-                                    DOANH NGHIỆP
-                                    <br/>
-                                    ĐANG GẶP PHẢI ?
-                                </p>
-                            </div>
-                            <div className="col-12 col-sm-12 col-md-12 col-lg-8">
-                                <div className="row">
-                                    <div className="col-12 col-sm-12 col-md-4 col-lg-4 ">
-                                        <div className="info__col2">
-                                            <i className="fa fa-calendar"/>
-                                            <h3 className="title text-danger">QUẢN LÝ THỦ CÔNG</h3>
-                                            <p>
-                                                Hồ sơ, sổ sách của doanh nghiệp đang được quản lý một cách thủ
-                                                                  công hoặc thông qua các công cụ quản lý đơn giản như MS Office
-                                                                  =&gt; Không phát huy được tối đa năng suất làm việc nhân viên.{" "} </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-12 col-md-4 col-lg-4">
-                                        <div className="info__col3">
-                                            <i className="fa fa-file"/>
-                                            <h3 className="title text-white">KIỂM SOÁT CHƯA TỐT</h3>
-                                            <p>
-                                                Công tác đánh giá hoạt động kinh doanh của doanh nghiệp chưa
-                                                                  thật sự tốt, không chủ động kiểm soát được doanh nghiệp mọi
-                                                                  lúc, mọi nơi =&gt; Gây lãng phí về thời gian và tiền bạc.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-12 col-md-4 col-lg-4 ">
-                                        <div className="info__col2">
-                                            <i className="fa fa-address-card"/>
-                                            <h3 className="title text-danger">KHÔNG THỎA MÃN</h3>
-                                            <p>
-                                                Doanh nghiệp không thỏa mãn với các chức năng, sự tùy biến và
-                                                                  cảm thấy không phù hợp của các phần mềm đóng gói ngoài thị
-                                                                  trường. =&gt; Và anh chị cần điều gì đó cho riêng mình.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container-fluid position-relative">
-                        <div className="row">
-                            <div className="col-12 overflow"></div>
-                        </div>
-                    </div>
-                    <div className="container-fluid">
-                        <div className="row info_right position-relative">
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-6">
-                                <div className="row img-left">
-                                    <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                        <div className="img-cuscom ">
-                                        <img className="img-fluid" src={img.img5} alt/>
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                        <div className="img-cuscom my-1">
-                                            <img className="img-fluid" src={img.img6} alt/>
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                        <div className="img-cuscom my-1">
-                                            <img className="img-fluid" src={img.img7} alt/>
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                        <div className="img-cuscom my-1">
-                                            <img className="img-fluid" src={img.img8} alt/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-6">
-                                <div className="row img-right">
-                                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
-                                        <img className="img-fluid w-100" src={img.img9} alt/>
-                                    </div>
-                                    <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                        <img className="img-fluid w-100 mb-3" src={img.img10} alt/>
-                                    </div>
-                                    <div className="col-12">
-                                        <img className="img-fluid" src={img.img11} alt/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="service mt-3 ">
-                    <h2 className="text-center pt-3">
-                        <p className="font-weight-bold">GSOT SẼ GIÚP ANH CHỊ</p>
-                        <div className="line1"></div>
-                    </h2>
-                    <div className="container-fluid">
-                        <div className="row content__service">
-                            <div className="col-12 col-sm-12 col-md-12 col-xl-6">
-                                <h3>XÂY DỰNG HỆ THỐNG PHẦN MỀM THÔNG MINH</h3>
-                                <div className="row">
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-4 ">
-                                        <div className="service__item">
-                                            Xây dựng cho riêng anh chị một Hệ thống phần mềm thông minh. Đáp
-                                                            ứng đầy đủ các yêu cầu về mặt kỹ thuật, để giải quyết các khó
-                                                            khăn cho doanh nghiệp của mình.
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-4 ">
-                                        <div className="service__item">
-                                            Các hệ thống phần mềm của GSOT được xây dựng trên các nền tảng
-                                                            kỹ thuật hiện đại nhất. Có thể dễ dàng kết nối với các thiết bị
-                                                            như: Máy chấm công, Máy in mã vạch, Camera
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-4 ">
-                                        <div className="service__item">
-                                            Các hệ thống phần mềm GSOT được xây dựng tập trung vào các yếu
-                                                            tố chính: Tích hợp toàn diện, dễ dàng sử dụng, phù hợp với doanh
-                                                            nghiệp Việt và chi phí hợp lý.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-12 col-md-12 col-xl-6">
-                                <h3>XÂY DỰNG HỆ THỐNG PHẦN MỀM THÔNG MINH</h3>
-                                <div className="row">
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-4 ">
-                                        <div className="service__item">
-                                            Tư vấn sử dụng một hệ thống cơ sở hạ tầng phù hợp cho Hệ thống
-                                                            phần mềm của doanh nghiệp. Điều này sẽ làm giảm đáng kể chi phí
-                                                            vận hành hàng năm mà anh chị phải trả.
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-4 ">
-                                        <div className="service__item">
-                                            Tư vấn và đạo tạo cho đội ngũ nhân viên của anh chị về mặt kỹ
-                                                            thuật cách sử dụng Hệ thống phần mềm một cách dễ dàng nhất. Nhằm
-                                                            tiết kiệm thời gian vận hành sau này.
-                                        </div>
-                                    </div>
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-4 ">
-                                        <div className="service__item">
-                                            Hỗ trợ tư vấn cho doanh nghiệp anh chị các thiết bị phần cứng
-                                                            phù hợp; Nhằm gia tăng hiệu suất làm việc của các thiết bị cũng
-                                                            như tối ưu thời gian sử dụng lâu dài.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="title">
-                    <div className="carousel_info__content">
-                        <h2 className="text-center title">
-                            Tại sao
-                            <span>PHẢI LÀ</span>
-                            {" "}
-                            <img className="img-fluid" src={img.img12} alt/>{" "} </h2>
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-md-3">
-                                    <div className="carousel_info__item bg-white">
-                                        <i className="fa fa-cogs text-success"/>
-                                        <h3 className="text-center">THIẾT KẾ RIÊNG BIỆT</h3>
-                                        <p>
-                                            Hệ thống phần mềm của được thiết kế và xây dựng theo đặc điểm,
-                                                            nghiệp vụ và quy trình riêng đặc biệt phù hợp đối với từng lĩnh
-                                                            vực, mô hình kinh doanh.{" "} </p>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-md-3">
-                                    <div className="carousel_info__item bg-green text-white">
-                                        <i className="fa fa-cogs"/>
-                                        <h3 className="text-center">CẢI TIẾN LIÊN TỤC</h3>
-                                        <p>
-                                            Hệ thống phần mềm của được thiết kế và xây dựng theo đặc điểm,
-                                                            nghiệp vụ và quy trình riêng đặc biệt phù hợp đối với từng lĩnh
-                                                            vực, mô hình kinh doanh.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-sm-12 col-md-12 col-lg-4">
-                                    <div className="carousel_info__item bg-white">
-                                        <i className="fa fa-cogs text-success"/>
-                                        <h3 className="text-center">ĐỘI NGŨ CHUYÊN NGHIỆP</h3>
-                                        <p>
-                                            Hệ thống phần mềm của được thiết kế và xây dựng theo đặc điểm,
-                                                            nghiệp vụ và quy trình riêng đặc biệt phù hợp đối với từng lĩnh
-                                                            vực, mô hình kinh doanh.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr/>
-                            <div className="position-relative">
-                                <div className="circle2"></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="cumstomer">
-                    <h3 className="text-center title font-weight-bold">KHÁCH HÀNG CỦA GSOT</h3>
-                    <div className="line"></div>
+            <div className="homePage">
+                <div className="intro">
                     <div className="container">
-                        <div className="row justify-content-center w-100 cumstomer__content my-5">
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
+                        <div className="row" style={{ paddingBottom: 23 }}>
+                            <div className="col-lg-5 col-md-5 d-flex flex-column">
+                                <div className="d-flex flex-wrap justify-content-around">
+                                    <div className="img12">
+                                        <span className="img1">
+                                            <img src={img.img1} width="100%" alt />
+                                        </span>
+                                        <span className="img2">
+                                            <img src={img.img2} width="100%" alt />
+                                        </span>
+                                    </div>
+                                    <span className="img3 pt-3 d-flex flex-row">
+                                        <img src={img.img3} width="100%" alt />
+                                    </span>
+                                </div>
                             </div>
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
-                            </div>
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
-                            </div>
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
-                            </div>
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
+                            <div className="col-lg-7 col-md-7 ">
+                                <div className="intro-content">
+                                    <span className="intro-title font-bold">VỀ CHÚNG TÔI</span>
+                                    <p className="intro-des">Là công ty chuyên tư vấn, xây dựng và triển khai các giải pháp quản lý
+                                    thông minh bằng phần
+                                    mềm trong toàn bộ hoạt động
+                                    quản lý vận hành, sản xuất, kinh doanh của doanh nghiệp. Các giải pháp của chúng tôi
+                                    được
+                                    xây dựng dựa trên các công
+                                    nghệ hiện đại nhất thế giới, phú hợp với từng khách hàng cụ thể
+          </p>
+                                    <div className="btn-more float-lg-right">
+                                        <a href="#" className="d-flex">
+                                            <img src={img.img4} alt />
+                                            <div className="btn-text">XEM THÊM</div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div className="row justify-content-center w-100 cumstomer__content my-5">
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
+                        <div className="dot-mid" />
+                    </div>
+                </div>
+
+                <div className="problem container" style={{ marginTop: "20px", marginBottom: "50px" }}>
+                    <div className="block-right" />
+                    <div className="icon">
+                        <div className="icon-arrow d-flex d-md-flex d-none">
+                            <div className="rotate"><img src={img.img5} alt /></div>
+                            <div className="icon-left pl-2"><img src={img.img5} alt /></div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-12" style={{ paddingRight: 46 }}>
+                            <div className="prob-img1 flex-column d-lg-flex d-md-none">
+                                <img src={img.img6} width="100%" alt />
                             </div>
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
+                            <div className="text-center">
+                                <span className="problem-title font-bold d-md-block d-lg-none pb-4">VẤN ĐỀ DOANH NGHIỆP ĐANG GẶP
+          PHẢI</span>
                             </div>
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
-                            </div>
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
-                            </div>
-                            <div className="col-6 col-sm-6 col-md">
-                                <img className="rsi" src={img.img13}/>
+                        </div>
+                        <div className="col-lg-8 col-md-12">
+                            <div className="row">
+                                <div className="col-md-4 col-12 pl-0 pr-0">
+                                    <div className="ql">
+                                        <div className="card prob-card card-gradient">
+                                            <div className="prob-img text-center m-auto">
+                                                <img src={img.img7} className="imgs" />
+                                                <img src={img.img8} className="imgs-hover" alt />
+                                            </div>
+                                            <span style={{ color: "#fd7e14" }} className="text-center font-semibold" >QUẢN
+                                            LÍ THỦ CÔNG
+              </span>
+                                            <span className="card-des">
+                                                Hồ sơ, sổ sách của doanh nghiệp đang được quản lý một cách thủ công hoặc thông
+                                                qua các công cụ
+                                                quản lý đơn giản như MS Office Không phát huy được tối đa năng suất làm việc
+                                                nhân viên.
+              </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-12 pl-0 pr-0">
+                                    <div className="ql">
+                                        <div className="card prob-card card-gradient">
+                                            <div className="prob-img text-center m-auto">
+                                                <img src={img.img10} className="imgs" />
+                                                <img src={img.img9} className="imgs-hover" style={{ width: "42px", height: "55px" }} alt />
+                                            </div>
+                                            <span className="text-center font-semibold" style={{ color: "#fd7e14" }}>KIỂM SOÁT CHƯA TỐT
+              </span>
+                                            <span className="card-des">
+                                                Công tác đánh giá hoạt động kinh doanh của doanh nghiệp chưa thật sự tốt, không chủ động kiểm soát được doanh nghiệp mọi lúc, mọi nơi => Gây lãng phí về thời gian và tiền bạc.
+              </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-12 pl-0 pr-0">
+                                    <div className="ql">
+                                        <div className="card prob-card card-gradient">
+                                            <div className="prob-img text-center m-auto">
+                                                <img src={img.img11} className="imgs" />
+                                                <img src={img.img12} className="imgs-hover" alt />
+                                            </div>
+                                            <span className="text-center font-semibold" style={{ color: "#fd7e14" }}>KHÔNG THỎA MÃN
+              </span>
+                                            <span className="card-des">
+                                                Hồ sơ, sổ sách của doanh nghiệp đang được quản lý một cách thủ công hoặc thông qua các công cụ quản lý đơn giản như MS Office Không phát huy được tối đa năng suất làm việc nhân viên.
+              </span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
+                <div className="software container position-relative mt-4" >
+                    <div className="dot-left" />
+                    <div className="row">
+                        <div className="block-left" />
+                        <div className="col-lg-7 col-md-12 padr-107">
+                            <div className="mobiles-title mt-4 text-center d-md-block d-lg-none">
+                                <span className="mobile-title font-bold pt-3">ANH CHỊ MONG MUỐN MỘT PHẦN MỀM ?</span>
+                            </div>
+                            <div className="row padl-123">
+                                <div className="col-md-6 pl-0 col-left">
+                                    <div className="card">
+                                        <div className="soft-img text-center ">
+                                            <img src={img.img13} />
+                                        </div>
+                                        <p className="pb-4">Quản lý doanh nghiệp, chặt chẽ, hiệu quả mọi lúc, mọi nơi</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 pl-0 col-left">
+                                    <div className="card">
+                                        <div className="soft-img text-center">
+                                            <img src={img.img14} />
+                                        </div>
+                                        <p>Tăng tối đa năng suất làm việc của đội ngũ nhân viên trong công ty</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row padl-123">
+                                <div className="col-md-6 pl-0 col-left">
+                                    <div className="card">
+                                        <div className="soft-img text-center">
+                                            <img src={img.img15} />
+                                        </div>
+                                        <p>Tiết kiệm chi phí vận hành doanh nghiệp hàng năm, tránh gây thất thoát.</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 pl-0 col-left">
+                                    <div className="card pl-3 pr-2">
+                                        <div className="soft-img text-center">
+                                            <img src={img.img16} />
+                                        </div>
+                                        <p>Tăng trưởng doanh thu và lợi nhuận tối đa với các nguồn lực hiện có</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="icon pr-2 float-lg-right pt-3">
+                                <img src={img.img5} alt />
+                            </div>
+                        </div>
+                        <div className="col-lg-5 col-md-12 col-right">
+                            <div className="software-img d-flex flex-column ">
+                                <div className="d-flex flex-row justify-content-around ">
+                                    <div className="gallery d-lg-flex flex-column d-md-none">
+                                        <img src={img.img17} width="100%" alt />
+                                    </div>
+                                    <div className="gallery d-lg-flex flex-column d-md-none">
+                                        <img src={img.img18} width="100%" alt />
+                                    </div>
+                                </div>
+                                <div className="d-flex flex-row justify-content-around" style={{ marginTop: 16 }}>
+                                    <div className="gallery d-lg-flex flex-column d-md-none ">
+                                        <img src={img.img19} width="100%" alt />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="company-help">
+                    <div className="container">
+                        <div className="row ">
+                            <div className="m-auto p-3">
+                                <h2 className="font-bold text-center">GSOT SẼ GIÚP ANH CHỊ</h2>
+                                <div className="m-auto" style={{ border: '2px solid white', width: 70 }}>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-6 text-center d-lg-block d-none" style={{ color: '#FCFC03' }}>
+                                <h6>XÂY DỰNG HỆ THỐNG PHẦN MỀM THÔNG MINH</h6>
+                            </div>
+                            <div className="col-6 text-center d-lg-block d-none" style={{ color: '#FCFC03' }}>
+                                <h6>XÂY DỰNG HỆ THỐNG PHẦN MỀM THÔNG MINH</h6>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6 col-12 pr-27">
+                                <div className="row m-0">
+                                    <div className="col-lg-4 col-12 p-6">
+                                        <div className="help-text ">
+                                            <div className="left-border" />
+                                            <p className="help-des">Xây dựng cho riêng anh chị một Hệ thống phần mềm thông minh. Đáp
+                                            ứng
+                                            đầy
+                                            đủ các yêu cầu
+                                            về
+                                            mặt kỹ thuật, để giải quyết
+                                            các khó khăn cho doanh nghiệp của mình.
+              </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-12 p-6">
+                                        <div className="help-text">
+                                            <p className="help-des">Xây dựng cho riêng anh chị một Hệ thống phần mềm thông minh. Đáp
+                                            ứng
+                                            đầy
+                                            đủ các yêu cầu
+                                            về
+                                            mặt kỹ
+                                            thuật, để giải quyết
+                                            các khó khăn cho doanh nghiệp của mình.
+              </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-12 p-6">
+                                        <div className="help-text">
+                                            <p className="help-des">Các hệ thống phần mềm GSOT được xây dựng tập trung vào các yếu
+                                            tố
+                                            chính:
+                                            Tích hợp toàn
+                                            diện,
+                                            dễ dàng sử dụng, phù hợp
+                                            với doanh nghiệp Việt và chi phí hợp lý.
+              </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-12 pl-27">
+                                <div className=" row m-0">
+                                    <div className="col-lg-4 col-12 p-6">
+                                        <div className="help-text">
+                                            <p className="help-des">Tư vấn sử dụng một hệ thống cơ sở hạ tầng phù hợp cho Hệ thống
+                                            phần
+                                            mềm
+                                            của doanh nghiệp.
+                                            Điều này làm giảm đáng kể
+                                            chi phí vận hành hàng năm mà anh chị phải trả
+              </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-12 p-6">
+                                        <div className="help-text ">
+                                            <p className="help-des">Tư vấn và đạo tạo cho đội ngũ nhân viên của anh chị về mặt kỹ
+                                            thuật
+                                            cách
+                                            sử dụng Hệ thống
+                                            phần mềm một cách dễ dàng
+                                            nhất. Nhằm tiết kiệm thời gian vận hành sau này.
+              </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-12 p-6">
+                                        <div className="help-text">
+                                            <p className="help-des">Hỗ trợ tư vấn cho doanh nghiệp anh chị các thiết bị phần cứng
+                                            phù
+                                            hợp;
+                                            Nhằm gia tăng hiệu
+                                            suất làm việc của các thiết bị
+                                            cũng như tối ưu thời gian sử dụng lâu dài
+              </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="company-choice container">
+                    <div className="tieude justify-content-center text-center" style={{ color: '#fd9701', marginTop: "40px" }}>
+                        <span className="choice-title">Tại sao <span className="cus-title">PHẢI
+        LÀ</span>
+                        </span>
+                        <img src={img.img20} width="185px" height="85px" style={{ marginTop: '-15px' }} />
+                    </div>
+                    <div className="container">
+                        <div className="row cover_content" >
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div className="carousel_info__item bg-white">
+                                    <img className="d-block m-auto" src={img.img23} alt />
+                                    <h3 className="text-center gsot_bold">THIẾT KẾ RIÊNG BIỆT</h3>
+                                    <p className="carousel__title m-0">Hệ thống phần mềm của được thiết kế và xây dựng theo đặc điểm, nghiệp vụ và quy trình
+          riêng đặc biệt phù hợp đối với từng lĩnh vực, mô hình kinh doanh. </p>
+                                    <div className="show_img">
+                                        <img className="d-block ml-auto show_img_item" src={img.img5} style={{ paddingRight: "30px" }} alt />
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div className="carousel_info__item bg-green">
+                                    <img className="d-block m-auto" src={img.img23} alt />
+                                    <h3 className="text-center gsot_bold">CẢI TIẾN LIÊN TỤC</h3>
+                                    <p className="carousel__title m-0">Hệ thống phần mềm của được thiết kế và xây dựng theo đặc điểm, nghiệp vụ và quy trình
+                                    riêng đặc biệt phù hợp đối với từng lĩnh vực, mô hình kinh doanh.
+        </p>
+                                    <div className="show_img">
+                                        <img className="d-block ml-auto show_img_item" src={img.img5} style={{ paddingRight: "30px" }} alt />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-sm-12 col-md-12 col-lg-4">
+                                <div className="carousel_info__item bg-white">
+                                    <img className="d-block m-auto" src={img.img23} alt />
+                                    <h3 className="text-center gsot_bold">ĐỘI NGŨ CHUYÊN NGHIỆP
+        </h3>
+                                    <p className="carousel__title m-0">Hệ thống phần mềm của được thiết kế và xây dựng theo đặc điểm, nghiệp vụ và quy trình
+          riêng đặc biệt phù hợp đối với từng lĩnh vực, mô hình kinh doanh.</p>
+                                    <div className="show_img">
+                                        <img className="d-block ml-auto show_img_item" src={img.img5} style={{ paddingRight: "30px" }} alt />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="position-relative">
+                            <div className="circle2">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="company-cus">
+                    <div className="container">
+                        <div className="dot-mid" />
+                        <div className="text-center" style={{ marginTop: 33 }}>
+                            <span className="cus-title">KHÁCH HÀNG CỦA GSOT</span>
+                            <p className="borders" />
+                        </div>
+                        <div className="cus-flex mt-3 img-gray">
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                            <div className="flex-item">
+                                <img src="https://img.icons8.com/color/480/000000/coca-cola.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div >
         )
     }
 }
