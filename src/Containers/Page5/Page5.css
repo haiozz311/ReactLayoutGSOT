@@ -1,0 +1,442 @@
+
+
+@font-face {
+    font-family:sanfran-semibold ;
+    src: url(./Font-family/SFUIDisplay-Semibold.otf);
+}
+@font-face{
+    font-family:sanfran-regular ;
+    src: url(./Font-family/SFUIDisplay-Regular.otf);
+}
+@font-face{
+    font-family:sanfraN-bold ;
+    src: url(./Font-family/SFUIDisplay-Bold.ttf);
+}
+@font-face {
+    font-family:sanfraN-medium ;
+    src: url(./Font-family/SFUIDisplay-Medium.otf);
+}
+.conten{
+    width: 85%;
+    margin: auto;
+}
+.page5 .text-tms{
+    padding-left: 113px;
+}
+.page5 .TMS .text-title{
+    margin-top: 94px;
+    font-size: 27px;
+    font-family:sanfran-semibold ;
+    color: #F15A22;
+    margin-bottom: 7px !important;
+}
+.page5 .TMS .boder{
+    border: 2px solid #FD9701;
+    width: 56px;
+}
+.page5 .TMS .text{
+    text-indent: 1rem;
+    width: 416px;
+    text-align: justify;
+    color: #58595B;
+    font-size: 16px;
+    font-family:sanfran-regular ;
+    margin-top: 12.5px;
+    margin-bottom: 37px !important;
+}
+.page5 .TMS .btn{
+    height: 33px;
+    font-weight: 700;
+    color: #F15A22;
+    font-size: 17px;
+    border-color: red;
+    width:143px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: linear-gradient(to left,#FF3600,white);
+    margin-left: 15px;
+}
+.page5 .TMS .button-img{
+    position: absolute;
+    z-index: 1;
+    margin-top: -36px;
+}
+.page5 .TMS  .button{
+    width:119px;
+    height: 37px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    background-image: linear-gradient(to left,#F15A22,white);
+    margin-left: 15px;
+}
+.page5 .TMS  .button-upper{
+    outline: none;
+    width:140px;
+    height: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    border:none;
+    position:absolute;
+    margin-left:-141px;
+    margin-top:1px;
+    
+}
+.page5 .TMS .font-button-p5{
+    font-family:sanfraN-bold ;
+    font-size: 16px;
+    color: #ff3900;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+.page5 .TMS .img1{
+    top:115px;
+    left: 64px;
+}
+
+.page5 .TMS .img1 img{
+    width: 100%;
+    height: 293px;
+}
+
+.page5 .TMS .img2{
+    width: 272px !important;
+    top:88px;
+    left: 194px;
+}
+
+.page5 .TMS .img2{
+    width: 100%;
+    height: 367px;
+}
+
+
+.page5 .TMS .row{
+    padding-top: 46px;
+}
+.page5 .text-cmt{
+    padding-left: 72px;
+}
+.page5 .CMS{
+    background-color: #EAEAEA;
+    padding-bottom: 49px;
+}
+.page5 .text-right-cmt{
+  padding-left: 52px;
+}
+.page5 .CMS .img1{
+    margin-top: 34px;
+    margin-bottom: 49px;
+    width: 506px;
+    height: 430px;
+}
+
+.page5 .CMS .img1 img{
+    width: 100%;
+    margin-left: -55px;
+    height: 100%;
+}
+.page5 .CMS .text-title{
+    font-size: 27px;
+    font-family:sanfran-semibold ;
+    color: #F15A22;
+     margin-top: 26px;
+     margin-bottom: 7px !important;
+}
+.page5 .CMS .boder{
+    border: 2px solid #FD9701;
+    width: 56px;
+    margin-bottom: 24px !important;
+}
+.page5 .CMS .text{
+    text-indent: 25px;
+    color: #58595B;
+    font-size: 16px;
+    font-family:sanfraN-medium ;
+    margin-bottom: 23px !important;
+}
+.page5 .CMS .text-p{  
+    color: #58595B;
+    font-size: 16px;
+    font-family:sanfran-regular ;
+}
+.page5 .CMS .btn{
+    height: 33px;
+    font-family: sanfraN-bold;
+    color: #F15A22;
+    font-size: 17px;
+    border-color: red;
+    width:143px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: linear-gradient(to left,#FF3600,white);
+    margin-left: 15px;
+}
+.page5 .CMS .button-img{
+    position: absolute;
+    z-index: 1;
+    margin-top: -36px;
+}
+.page5 .CMS  .button{
+    width:119px;
+    height: 37px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    background-image: linear-gradient(to left,#F15A22, #EAEAEA);
+    margin-left: 15px;
+    border-left: none;
+    margin-top: 21px;
+}
+.page5 .CMS  .button-upper{
+    outline: none;
+    width:140px;
+    height: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #EAEAEA;
+    border:none;
+    position:absolute;
+    margin-left:-141px;
+    margin-top: 22px;
+    
+}
+.page5 .CMS .font-button-p5{
+    font-family:sanfraN-bold ;
+    font-size: 16px;
+    color: #ff3900;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+.page5 .text-vietdata{
+    padding-left: 90px;
+}
+.page5 .VIETDATA .text-title{
+    font-size: 27px;
+    font-family:sanfran-semibold ;
+    color: #F15A22;
+    width: 505px;
+    margin-bottom: 7px !important;
+}
+.page5 .VIETDATA .boder{
+    border: 2px solid #FD9701;
+    width: 56px;
+}
+.page5 .VIETDATA .text{
+    text-indent: 20px;
+    width: 411px;
+    text-align: justify;
+    color: #58595B;
+    font-size: 15px;
+    font-family:sanfran-regular ;
+    margin-top: 12.5px;
+}
+.page5 .VIETDATA .btn{
+    height: 33px;
+    font-family: sanfraN-bold;
+    color: #F15A22;
+    font-size: 17px;
+    border-color: red;
+    width:143px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: linear-gradient(to left,#FF3600,white);
+    margin-left: 15px;
+}
+.page5 .VIETDATA .button-img{
+    position: absolute;
+    z-index: 1;
+    margin-top: -36px;
+}
+.page5 .VIETDATA  .button{
+    width:119px;
+    height: 37px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    background-image: linear-gradient(to left,#F15A22,white);
+    margin-left: 15px;
+}
+.page5 .VIETDATA  .button-upper{
+    outline: none;
+    width:140px;
+    height: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    border:none;
+    position:absolute;
+    margin-left:-141px;
+    margin-top:1px;
+    
+}
+.page5 .VIETDATA .font-button-p5{
+    font-family:sanfraN-bold ;
+    font-size: 16px;
+    color: #ff3900;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.page5 .VIETDATA .row{
+    padding-top: 46px;
+}
+.page5 .img-end{
+    margin-top: 47px;
+    height: 301px;
+    width: 469px;
+}
+.page5 .VIETDATA .img-circle{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+@media screen and (max-width: 2500px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    .page5 .CMS .img1 {
+        width: 470px !important;
+    }
+    .page5 .CMS{
+        margin-top: 98px;
+    }
+    .page5 .text-tms{
+        padding-left: 0px;
+    }
+    .page5 .text-cmt {
+     padding-left: 0px; 
+    }
+    .page5 .text-right-cmt{
+        padding-left: 0px;
+    }
+    .page5 .text-vietdata{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page5 .TMS .text {
+        text-indent: 55px;
+        width: 325px;
+    }
+    .page5 .TMS .img2 {
+        left: 96px;
+    }
+    .page5 .TMS .img1 {
+        left: -5px;
+    }
+    .page5 .CMS{
+        margin-top: 98px;
+    }
+   
+    .page5 .CMS .img1 {
+        width: 370px !important;
+    }
+    .page5 .VIETDATA .text{
+        width: 340px;
+    }
+    .page5 .img-end {
+        margin-top: 78px;
+        width: unset; 
+        margin-left: 26px;
+    }
+    .page5 .text-tms{
+        padding-left: 0px;
+    }
+    .page5 .text-cmt {
+     padding-left: 0px; 
+    }
+    .page5 .text-right-cmt{
+        padding-left: 0px;
+    }
+    .page5 .text-vietdata{
+        padding-left: 0px;
+    }
+    /* .TMS .img-circle1{
+        display: none;
+    } */
+}
+@media screen and (max-width: 576px) {
+    .page5 .TMS .text {
+        text-indent: 55px;
+        width: 100%;
+    }
+    
+    .page5 .TMS .text-title{
+        text-align: center;
+    }
+
+    .page5 .TMS .boder{
+        margin: auto;
+    }
+
+    .page5 .circle{
+        width: 282px;
+    }
+
+    .page5 .circle img{
+        width: 100%;
+    }
+
+    .page5 .TMS .img1{
+        width: 200px;
+        left: 5px;
+    }
+
+    .page5 .TMS .img2{
+        width: 250px;
+        left: 70px;
+    }
+    .page5 .CMS{
+        margin-top: 98px;
+    }
+    .page5 .CMS .img1{
+        width: 100% !important;
+    }
+
+    .page5 .CMS .text-title{
+        text-align: center;
+    }
+
+    .page5 .CMS .boder{
+        margin: auto;
+    }
+
+    .page5 .VIETDATA .text-title{
+        text-align: center;
+         width: unset;
+    }
+
+    .page5 .VIETDATA .boder{
+        margin: auto;
+    }
+
+    .page5 .VIETDATA .text{
+        width: 100%;
+    }
+    .page5 .img-end {
+         width: unset; 
+         margin-top: 0px;
+    }
+    .page5 .CMS .img1 img {
+        margin-left: unset;
+    }
+    .page5 .text-tms{
+        padding-left: 0px;
+    }
+    .page5 .text-cmt {
+     padding-left: 0px; 
+    }
+    .page5 .text-right-cmt{
+        padding-left: 0px;
+    }
+    .page5 .text-vietdata{
+        padding-left: 0px;
+    }
+}

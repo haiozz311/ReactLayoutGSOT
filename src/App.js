@@ -1,15 +1,11 @@
 import React from 'react';
-import Header from './Containers/Header';
-import Footer from './Containers/Footer/index';
-import Page5 from './Containers/Page_5';
-
+import { BrowserRouter as Router }  from 'react-router-dom';
+import Routers from './Routers';
 function App() {
   return (
-    <div>
-      <Header />
-      <Page5 />
-      <Footer />
-    </div>
+    <Router>
+      <Routers />
+    </Router>
   );
 }
 

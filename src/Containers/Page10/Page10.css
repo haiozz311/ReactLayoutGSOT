@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face{
+    font-family: "Bold";
+    src: url('./fonts/SFNSDisplay-Bold.otf');
+}
+@font-face{
+    font-family: "Regular";
+    src: url('./fonts/SFNSDisplay-Regular.otf');
+}
+@font-face{
+    font-family: "Medium";
+    src: url('./fonts/SFNSDisplay-Medium.otf');
+}
+body .breadcrumb-item+.breadcrumb-item::before{
+    content: "-";   
+}
+body .container{
+    width: 1170px !important;
+    padding: 0 !important;
+}
+body .breadcrumb {
+    background-color: transparent;
+}
+.section10{
+    margin-bottom: 41px;
+}
+.section10 .breadcrumb{
+    padding-top: 29px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+}
+.section10 .breadcrumb li{
+    font-family: "Regular";
+}
+.section10 .breadcrumb a{
+    color: black;
+    font-size: 16px;
+    font-family: "Regular";
+}
+body .breadcrumb .active{
+    color: #FD9701;
+}
+.section10 .hr{
+    background-color: #FD9701;    
+    position: relative;
+    width: 75%;
+}
+.section10 .hr::After{
+    content: "";
+    background-color: #FD9701;
+    display: block;
+    width: 7%;
+    height: 3px;
+    position: absolute;
+    top: -4px;
+    left:230px; 
+}
+.section10 .fa-quote-left{
+    color: #006768;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.section10 .fa-quote-right{
+    margin-left: 295px;
+    color: #006768;
+    font-size: 30px;
+}
+.section10 .text-left{
+    position: relative;
+    top: -17px;
+    left: 0;
+}
+.section10 .section10__title{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.section10 .section10__title h3{
+    font-size: 33px;
+    color: #FD9701;
+    font-family: "Regular";
+}
+.section10 .section10__title__item p{
+    text-indent: 25px;
+    font-size: 16px;
+    text-align: justify;
+    font-family: "Regular";
+}
+/* .img__layout9{
+
+} */
+.section10 .set__hr{
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 11px;
+    
+}
+.section10 h4{
+    font-size: 20px;
+    color: #FD9701;
+    border-bottom: 1px solid #FD9701;
+    padding: 10px;
+}
+.section10 .info__title h4{
+    font-size: 20px;
+    border-bottom: 1px solid #FD9701;
+    width: 35%;
+    padding-left: 0px;
+    font-family: "Bold";
+}
+.section10 .info__title .dev{
+    color: #FD9701;
+    font-family: "Medium";
+}
+.section10 .info__title .time{
+    font-family: "Bold";
+}
+.section10 .info__title h4::after{
+    content: "";
+    background-color: #FD9701;
+    width: 57px;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.section10 .info__title1{
+    margin-bottom: 18px;
+    font-family: "Bold";
+}
+.section10 .info__title1 h4::after{
+    content: "";
+    background-color: #FD9701;
+    width: 57px;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.section10 .resize .resize__content{
+    margin-bottom: 18px;
+}
+
+.section10 .info__title option{
+    font-size: 16px;
+}
+.section10__title{
+    text-align: center;
+}
+.section10 .search i{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section10 .form-control{
+    border-radius: 0;
+}
+.section10 .custom-btn{
+    background: linear-gradient(to right,#0DAE4C,#006768);
+}
+.section10 input::placeholder{
+    text-align: center;
+}
+.section10 .custom-content button{
+    background: linear-gradient(to right,#0DAE4C,#006768);
+    border-radius: 0;
+}
+
+.section10 .section10 .fa-search{
+    margin-left: 10px;
+}
+.section10 .info__title .resize {
+    margin-bottom: 42px;
+}
+.section10 .custom-form-group{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.section10 .custom-form-group__item {
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 6px;
+    font-size: 11px;
+}
+.section10 .custom-form-group__item svg:not(:root).svg-inline--fa {
+    margin: 0 10px;
+    font-size: 15px;
+    color: #737373;
+}
+.section10 .custom-form-group__item i {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #737373;
+}
+.section10 .img__layout9 {
+    position: absolute;
+    top: -60px;
+    left: 0px;
+    width: auto;
+    height: 355px;
+}
+.section10 .location{
+    background: linear-gradient(to right, #0BA550,#006768);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
