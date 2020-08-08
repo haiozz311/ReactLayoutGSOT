@@ -3,21 +3,22 @@
     padding:0;
 }
 /* about-us  */
-.about-us{
+
+.homepage .about-us{
     padding:20px 5%;
 }
-.about-us img{
+.homepage .about-us img{
     height: 190px;
     overflow: hidden;    
     width: 100%;
     margin-bottom: 20px;
 }
-.about-us .about-Right{
+.homepage .about-us .about-Right{
     margin-top: 95px;
     padding:0 10%;
     text-align: justify;
 }
-.about-us .circle{
+.homepage .about-us .circle{
     border:1px solid black;
     width: 10px;
     height: 10px;
@@ -27,20 +28,20 @@
     left: 50%;
     background-color: white;
 }
-.about-Right .title{
+.homepage .about-Right .title{
     font-weight:bold;
     font-size:30px;
     color:#ff3600;
 }
-.about-Right .about-Right__content{
+.homepage .about-Right .about-Right__content{
     font-size: 20px;
 }
 /* end aboutus */
 /* info  */
-.info{
+.homepage .info{
     padding:0px 5%;
 }
-.info .info__co1{
+.homepage .info .info__co1{
     font-size: 38px;
     padding: 15px;
     padding-top:40px;
@@ -50,14 +51,14 @@
     color: white;
     font-weight: bold;
 }
-.info .info__col2 i{
+.homepage .info .info__col2 i{
     display: block;
     text-align: center;
     font-size: 35px;
     margin-top: 25px;
     margin-bottom: 15px;
 }
-.info .info__col2{
+.homepage .info .info__col2{
     padding:0px 20px;
     border: 1px solid transparent;
     border-radius: 8px;
@@ -67,20 +68,20 @@
     background-color: white;
     text-align: justify;
 }
-.info .info__col2 .title{
+.homepage .info .info__col2 .title{
     font-weight: bold;
     font-size: 16px;
     text-align: center;
 }
 
-.info .info__col3 i{
+.homepage .info .info__col3 i{
     display: block;
     text-align: center;
     font-size: 35px;
     margin-top: 25px;
     margin-bottom: 15px;
 }
-.info .info__col3{
+.homepage .info .info__col3{
     background: linear-gradient(to right bottom, #099c53, #037662);
     padding:0px 20px;
     border: 1px solid transparent;
@@ -90,12 +91,12 @@
     z-index: 10;
     text-align: justify;
 }
-.info .info__col3 .title{
+.homepage .info .info__col3 .title{
     font-weight: bold;
     font-size: 16px;
     text-align: center;
 }
-.overflow{
+.homepage .overflow{
     height: 200px;
     background-color: #ceeedb;
     border-radius: 10px;
@@ -105,12 +106,12 @@
     z-index:-1;
     width: 90%;
 }
-.homepage .hr {
+.homepage .homepage .hr {
     margin-top:60px;
     width: 50%;
     margin-left: 8%;
 }
-.circle1{
+.homepage .circle1{
     border:1px solid black;
     width: 10px;
     height: 10px;
@@ -120,25 +121,29 @@
     left: 7%;
     background-color: white;
 }
-.info_right{
+.homepage .info_right{
     margin-top: 100px;
 }
-.info_right img{
+
+.homepage .info_right img{
     height: 235px;
     overflow: hidden;    
     width: 100%;
 }
-.img-left img{
+
+.homepage .img-left img{
     height: 200px;
     overflow: hidden;    
     width: 100%;
 }
-.img-left p{
+
+.homepage .img-left p{
     font-size: 16px;
     text-align: justify;
     padding: 10px 15px;
 }
-.img-cuscom{
+
+.homepage .img-cuscom{
     box-shadow: 5px 10px 18px #888888;
     height: 200px;
     overflow: hidden;
@@ -147,19 +152,19 @@
 /* end info  */
 
 /* service  */
-.service {
+.homepage .service {
     background: linear-gradient(to bottom, #18cc66, #037662);
     color:white;
 }  
-.service .content__service{
+.homepage .service .content__service{
     padding: 0 5%;
 }
-.service .content__service h3{
+.homepage .service .content__service h3{
     font-size:22px;
     text-align:center;
     color:#fbfb03;
 }
-.service .service__item{
+.homepage .service .service__item{
     border:1px solid #e1f2eb;
     border-top:0;
     border-bottom:0;
@@ -168,34 +173,34 @@
     text-align: justify;
     padding: 10px 12px;
 }
-.service .content__service{
+.homepage .service .content__service{
     padding-bottom: 30px;
 }
 /* end service  */
 /* carousel_info  */
 
-.carousel_info__content{
+.homepage .carousel_info__content{
     margin-top:75px;
 }
-.carousel_info__content .title{
+.homepage .carousel_info__content .title{
     color: #fc9601;
 } 
-.carousel_info__content .title span{
+.homepage .carousel_info__content .title span{
     font-weight: bold;
 }
-.carousel_info__content .carousel_info__item{
+.homepage .carousel_info__content .carousel_info__item{
     padding: 10px 15px;
     box-shadow: 5px 1px 18px #888888;
     border-radius: 10px;
     border:1px solid #888888;
     border-bottom: 5px solid #037662;
 }
-.carousel_info__content .carousel_info__item h3{
+.homepage .carousel_info__content .carousel_info__item h3{
     font-weight: bold;
     font-size: 20px;
     margin: 0;
 }
-.carousel_info__content .carousel_info__item i{
+.homepage .carousel_info__content .carousel_info__item i{
     display: block;
     text-align: center;
     font-size: 40px;
@@ -203,18 +208,18 @@
     padding-bottom: 18px;
     
 }
-.carousel_info__content .carousel_info__item p{
+.homepage .carousel_info__content .carousel_info__item p{
     text-align: justify;
     padding: 12px 20px;
     line-height: 34px;
 }
-.bg-green{
+.homepage .bg-green{
     background: linear-gradient(to bottom, #18cc66, #037662);
 }
-.bg-white{
+.homepage .bg-white{
     background-color: white;
 }
-.circle2 {
+.homepage .circle2 {
     border:1px solid black;
     width: 10px;
     height: 10px;
@@ -226,11 +231,11 @@
 }
 /* end carousel_info  */
 /* cumstomer  */
-.cumstomer .title{
+.homepage .cumstomer .title{
     color: #fc9601;
     font-size: 35px;
 }
-.line{
+.homepage .line{
     background-color: #f07e3c;
     border: 1px solid;
     border-color: #f07e3c;
@@ -240,7 +245,7 @@
     margin: auto;
 }
 
-.btncolor{
+.homepage .btncolor{
     color: red;
     padding: 6px;
     border: 1px solid red;
@@ -248,10 +253,10 @@
     border-radius:200px ;
     font-weight: bold;
 }
-.btncolor i{
+.homepage .btncolor i{
     font-size: 18px;
 }
-.btncolor .icon{
+.homepage .btncolor .icon{
     border-top-left-radius:50% ;
     border-bottom-left-radius:50%;
     border-top-right-radius:50%;;
@@ -263,7 +268,7 @@
     /* border-top:1px solid transparent;
     border-bottom:1px solid red; */
 }
-.btncolor .cover{
+.homepage .btncolor .cover{
     border-top-left-radius:50% ;
     border-bottom-left-radius:50%;
     border-top-right-radius:50%;;
@@ -274,11 +279,11 @@
     border-top:1px solid #d3bdb6dc;
     border-bottom:1px solid #bebcbbd5;
 }
-.btncolor b{
+.homepage .btncolor b{
     cursor: pointer;
 }
 
-.line1{
+.homepage .line1{
     background-color: white;
     border: 1px solid;
     border-color: white;

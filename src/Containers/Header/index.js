@@ -7,10 +7,7 @@ import img from './asset/index';
 export default class Header extends Component {
     render() {
         return (
-            <header className="header position-relative"
-                style={
-                    {paddingBottom: '30px'}
-            }>
+            <header className="header position-relative">
                 <ul className="contact-header">
                     <li>
                         <i className="fas fa-phone-alt" />

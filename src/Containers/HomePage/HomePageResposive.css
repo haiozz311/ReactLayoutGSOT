@@ -1,92 +1,84 @@
 @media screen and (max-width: 1200px) {
-    .about-us img{
+    .homepage .about-us img{
         height: 200px;
         overflow: hidden;    
         width: 100%;
         margin-bottom: 20px;
     }
-    .about-us .about-Right{
+    .homepage .about-us .about-Right{
         margin-top:0;
     }
-    .info .info__co1{
+    .homepage .info .info__co1{
         font-size: 22px;
     }
   
   }
   
   @media screen and (max-width: 992px) {
-    nav .nav-item.search{
+    .homepage nav .nav-item.search{
         margin:0 30px;
     }
-    .about-Right .title{
+    .homepage .about-Right .title{
         font-weight:bold;
         font-size:25px;
     }
-    .info .info__co1{
+    .homepage .info .info__co1{
         font-size: 35px;
     }
   
   }
   
   @media screen and (max-width: 768px) {
-    .about-Right .title{
+    .homepage .about-Right .title{
         font-weight:bold;
         font-size:25px;
         text-align: center;
     }
-    .overflow{
+    .homepage .overflow{
         display: none;
     }
-    nav .navbar-collapse .nav-item a::after{
+    .homepage nav .navbar-collapse .nav-item a::after{
         content: '';
     }
-    /* .footer .footer__content .content {
-        position: absolute;
-        top: 22px;
-        left: 0;
-    }
-    .footer .footer__content .footer-contact{
-        display: none;
-    } */
   }
   @media screen and (max-width: 576px) {
-    .about-us img {
+    .homepage .about-us img {
         height: 100px;
         overflow: hidden;
         width: 100%;
         margin-bottom: 10px;
     }
-    .about-us .about-Right{
+    .homepage .about-us .about-Right{
         margin-top:0;
     }
-    .info .info__co1{
+    .homepage .info .info__co1{
         font-size: 25px;
     }
-    .img-left img{
+    .homepage .img-left img{
         height: 80px;
     }
-    .img-left p{
+    .homepage .img-left p{
         font-size: 14px;
         padding:0;
     }
-    .info_right img {
+    .homepage .info_right img {
         height: 230px;
         overflow: hidden;
         width: 100%;
     }
-      .footer .map{
+    .homepage .footer .map{
         display: none;
     }
-    .footer-contact{
+    .homepage .footer-contact{
         display: none;
     }
-    .carousel_info__content {
+    .homepage .carousel_info__content {
         margin-top: 25px;
     }
-    .footer .footer__content ul {
+    .homepage .footer .footer__content ul {
         padding-left: 20px;
     }
-    .footer .footer__content .content {
+    .homepage .footer .footer__content .content {
         position: absolute;
         top: 21px;
         left: 0;

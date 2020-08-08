@@ -340,7 +340,7 @@ export default class Page8 extends Component {
           className="iframe"
           style={{ marginTop: 30 }}
           src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2Fgsotgroup%2Fabout%2F&tabs=timeline&width=320&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-          width={280}
+          width={"100%"}
           height={500}
           scrolling="no"
           frameBorder={0}

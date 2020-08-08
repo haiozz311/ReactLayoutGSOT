@@ -4,17 +4,31 @@
 }
 
 @font-face {
-    font-family: SFU;
+    font-family: SFC-Regular;
     src: url(./Font-family/SFUIDisplay-Regular.otf);
 }
 
+@font-face{
+    font-family: SFC-Bold;
+    src: url(./Font-family/SFUIDisplay-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: SFC-SamiBold;
+    src: url(./Font-family/SFUIDisplay-Semibold.otf);
+}
+
 .content1{
+    padding-top: 27px;
+    width: 1170px;
+    margin: auto;
     padding-bottom: 30px;
 }
 
 .content1 .left .text-title{
     margin-bottom:15px;
-    font-family: SFU;
+    font-family: SFC-Regular;
 }
 .content1 .left .text-title1{
     font-size:16px;
@@ -22,7 +36,8 @@
     font-family: SFU;
 }
 .content1 .left .text-title2{
-    font-size:16px;
+    margin-left: 5px;
+    font-size:16.39px;
     line-height: 19.2px;
     font-family:SFDisplay-Medium;
     color:#fca423;
@@ -41,42 +56,67 @@
     margin:0px;
     margin-top: 10px;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 .content1 .left .hr{
     background-color: #fca423;
     height: 5px;
     width: 8%;
-    left:5.5%;
+    left:6.5%;
     top:-2.5px;
     position: absolute;
 }
+
+.content1 .left .hr33{
+    background-color: #fca423;
+    height: 5px;
+    width: 14%;
+    left:6.5%;
+    top:-2.5px;
+    position: absolute;
+    left: 37.5%;
+    top: -2.5px;
+    display: none;
+}
+
+.content1 .left .hr44{
+    background-color: #fca423;
+    height: 5px;
+    width: 14%;
+    left: 75.5%;
+    top: -2.5px;
+    position: absolute;
+    display: none;
+}
+
 .content1 .left .mon{
     font-size:15.53px;
     line-height: 18.63px;
-    font-family: SFU;
+    font-family: SFC-Bold;
     color:#f05a21;
 }
 .content1 .left .day{
     font-size:16px;
     line-height: 18.63px;
-    font-family: SFU;
+    font-family: SFC-Bold;
     color:#f05a21;
 }
 .content1 .left .text1{
     padding:10px 0px !important;
     font-size:24px;
     line-height:32.4px;
-    font-family: SFU;
+    font-family: SFc-Bold;
     color:#f05a21;
     margin-left: 40px;
     margin-right:20px ;
+    cursor: pointer;
 }
 .content1 .left .text2{
     font-size:24px;
     line-height:32.4px;
-    font-family: SFU;
+    font-family: SFC-Bold;
     color:#f05a21;
+    cursor: pointer;
 }
 .content1 .left .text1::before{
     content:"";
@@ -93,25 +133,32 @@
 
 .content1 .title h4{
     color: #f05a21;
+    font-family: SFC-SamiBold;
+    font-size: 21px;
 }
 
 .content1 .text3{
     text-align: justify;
     text-indent: 40px;
-    font-family: SFU;
+    font-family: SFC-Regular;
+    font-size: 15.53px;
+    margin-bottom: 0;
 }
 
 .content1 .hr3{
     background-color: #57585b;
     margin: 0;
-    margin-bottom: 15px !important;
+    margin-bottom: 19px !important;
+    margin-top: 6px !important;
 }
 
 .content1 .text4 p{
+    line-height: 17px;
     text-align: justify;
     text-indent: 40px;
-    margin-bottom: 10px;
-    font-family: SFU;
+    margin-bottom: 5px;
+    font-family: SFC-Regular;
+    font-size: 15.53px;
 }
 
 .content1 .img2{
@@ -132,16 +179,17 @@
 }
 
 .content1 .text5 .text5-title{
-    font-weight: bold;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 15.53px;
+    font-family: SFC-Bold;
 }
 
 .content1 .text5 p{
+    line-height: 17px;
     text-align: justify;
     text-indent: 40px;
-    margin-bottom: 4px;
-    font-family: SFU;
+    margin-bottom: 5px;
+    font-family: SFC-Regular;
 }
 
 .content1 .card-group .img{
@@ -187,6 +235,16 @@
     border-radius: 40px !important;
 }
 
+.content1 .bar .mr-2{
+    font-size: 15px;
+    font-family: SFC-Regular;
+}
+
+.content1 .bar .mr-2{
+    font-size: 15px;
+    font-family: SFC-Regular;
+}
+
 .content1 .row-boder-bottom{
     padding-bottom: 5px;
     width: 319px;
@@ -206,14 +264,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .services .img-4 img {
-        width: 100% !important;
-        margin-top: 98px;
+    .content1 {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
-
+    .content1 {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 576px) {
     .width-responsive{

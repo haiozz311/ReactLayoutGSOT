@@ -5,21 +5,20 @@ import img from './asset';
 export default class Introduce extends Component {
     render() {
         return (
-            <div style={{paddingTop: '80px'}}>
+            <div className="page2">
                 <section className="introduce">
-                    <div className="container">
-                        <div className="row">
+                        <div className="row m-0">
                             <div className="col-xs-12 col-sm-12 col-md-6">
                                 <h1 className="title">GIỚI THIỆU GSOT</h1>
                                 <div className="border"/>
-                                <p className="text">
+                                <p className="text"  style={{marginBottom: "25px"}}>
                                     Công ty Cổ phần Giải Pháp Thông minh xanh (GSOT) là công ty hàng đầu
                                                           tại Việt Nam chuyên cung cấp dịch vụ phát triển và triển khai ứng
                                                           dụng các hệ thống phần mềm công nghệ thông tin vào quản lý sản xuất
                                                           kinh doanh, nhằm nâng cao hiệu quả điều hành, quản trị cho các doanh
                                                           nghiệp, tổ chức kinh doanh – xã hội.
                                 </p>
-                                <p className="text">
+                                <p className="text" style={{marginBottom: "0px"}}>
                                     Các sản phẩm tiêu biểu của GSOT như là: TMS (Transportation
                                                           Management System), Hệ thống CMS (Container Management System), Hệ
                                                           thống HRMS (Human Resource Management System), Các hệ thống quản lý
@@ -34,7 +33,6 @@ export default class Introduce extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </section>
                 <section className="success">
                     <div className="container-fluid BG p-0">
@@ -44,8 +42,6 @@ export default class Introduce extends Component {
                     </div>
                 </section>
                 <section className="success2">
-                    <div className="container-fluid BG">
-                        <div className="container">
                             <div className="row">
                                 <div className="col-xs-12 col-sm-12 col-md-4 pl-0 pl-responsive mt-responsive">
                                     <div className="card h-100">
@@ -92,14 +88,10 @@ export default class Introduce extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
                 </section>
                 <section className="datagram">
-                    <div className="container">
                         <div className="img">
-                            <img src={img.imgDiagram} alt=""/>
-                        </div>
+                            <img src={img.imgDiagram} alt=""/>  
                     </div>
                 </section>
                 <section className="section7">

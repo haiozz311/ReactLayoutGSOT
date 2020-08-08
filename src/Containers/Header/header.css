@@ -12,6 +12,7 @@ body{
     src: url(./Font-family/SFUIDisplay-Semibold.otf);
 }
 
+
 .header .carousel ul{
     position: absolute;
     z-index: 999;
@@ -122,6 +123,7 @@ body{
     padding: 0;
     color: white !important;
     font-family: SamiBold;
+    margin-left: 20px;
   }
   
 
@@ -182,6 +184,10 @@ body{
     .contact-header {
         top: 260px;
     }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -203,6 +209,13 @@ body{
     .contact-header {
         top: 195px;
     }
+    .navbar {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .navitemlast a {
+        padding-left: 0px !important;
+    }
 }
 @media screen and (max-width: 576px) {
     .navbar {
@@ -210,7 +223,11 @@ body{
         padding: 0;
     }
     .header .carousel ul {
-        top: 165px !important;
+        top: 110px !important;
+    }
+
+    .carousel-item {
+        height: 194px;
     }
     
     .contact-header {
@@ -224,5 +241,11 @@ body{
         left: 0;
         opacity: 0.5;
         display: block;
+    }
+    .navitemlast a {
+        padding-left: 1px !important;
+    }
+    .navbar .btn-outline-success{
+        margin-left: 37px;
     }
 }

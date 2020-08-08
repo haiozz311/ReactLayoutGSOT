@@ -12,11 +12,25 @@ export default class Page9 extends Component {
         document.getElementById("line").style.display = "none";
         document.getElementById("line2").style.display = "block";
     }
+    lineTitle(){
+        document.getElementById("hr").style.display = "block";
+        document.getElementById("hr33").style.display = "none";
+        document.getElementById("hr44").style.display = "none";
+    }
+    lineTitle2(){
+        document.getElementById("hr").style.display = "none";
+        document.getElementById("hr33").style.display = "block";
+        document.getElementById("hr44").style.display = "none";
+    }
+    lineTitle3(){
+        document.getElementById("hr").style.display = "none";
+        document.getElementById("hr33").style.display = "none";
+        document.getElementById("hr44").style.display = "block";
+    }
     render() {
         return (
             <section className="content1">
-                <div className="container">
-                    <div className="row">
+                    <div className="row m-0">
                         <div className="left col-xs-12 col-sm-12 col-md-8 col-lg-8">
                             <p className="text-title">
                                 <span className="text-title1">Trang chủ -
@@ -24,15 +38,20 @@ export default class Page9 extends Component {
                                 <span className="text-title2">Sự kiện</span>
                             </p>
                             <hr className="hr1"/>
+                            <span onClick={this.lineTitle} style={{cursor: 'pointer'}}>
                             <span className="mon">MON |</span>
-                            <span className="day">
+                            <span className="day" style={{marginLeft: "5px"}}>
                                 02.07.2020</span>
+                            </span>
+
                             {" "}
-                            <span className="text1">CATEGORY ARCHIVES</span>
+                            <span onClick={this.lineTitle2} className="text1">CATEGORY ARCHIVES</span>
                             {" "}
-                            <span className="text2">TIN TỨC VÀ SỰ KIỆN</span>
+                            <span onClick={this.lineTitle3} className="text2">TIN TỨC VÀ SỰ KIỆN</span>
                             <div className="hr2">
-                                <div className="hr"/>
+                                <div className="hr" id="hr"/>
+                                <div className="hr33" id="hr33"/>
+                                <div className="hr44" id="hr44"/>
                             </div>
                             <div className="title row">
                                 <img className="col-md-2"
@@ -124,22 +143,20 @@ export default class Page9 extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-0"
-                            style={
-                                {paddingTop: "65px !important"}
-                        }>
+                        <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-0">
                             <div className="right"
                                 style={
                                     {
                                         width: 319,
-                                        marginLeft: "auto"
+                                        marginLeft: "auto",
+                                        marginTop: "65px"
                                     }
                             }>
                                 <div className="bar position-relative">
                                     <div className="line" id="line"/>
                                     <div className="line2" id="line2"/>
                                     <span className="mr-2" onClick={this.line} style={{cursor: 'pointer'}}>TIN GSOT |</span>
-                                    <span style={{cursor: 'pointer'}} onClick={this.line2}>
+                                    <span className="right-title" style={{cursor: 'pointer'}} onClick={this.line2}>
                                         KIẾN THỨC CÔNG NGHỆ{" "}
                                         <img className="img"
                                             style={
@@ -269,7 +286,7 @@ export default class Page9 extends Component {
                                 }>
                                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgsotgroup&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                                         width={319}
-                                        height={700}
+                                        height={500}
                                         style={
                                             {
                                                 border: "none",
@@ -284,7 +301,6 @@ export default class Page9 extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
         )
     }

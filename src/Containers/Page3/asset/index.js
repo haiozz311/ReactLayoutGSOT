@@ -3,6 +3,7 @@ const img ={
     img45: require('./images/xuat file2-45.png'),
     img46: require('./images/xuat file2-46.png'),
     img55: require('./images/xuat file2-55.png'),
+    arrowgray: require('./images/arrowgray.jpg')
 }
 
 export default img;

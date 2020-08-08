@@ -5,12 +5,11 @@ import img from './asset';
 export default class Services2 extends Component {
     render() {
         return (
-            <div style={{paddingTop: '80px'}}>
+            <div className="page4" style={{paddingTop: '80px'}}>
                     <section className="DV position-relative">
-                        <div className="bg"/>
-                        <div className="container position-relative">
+                    <div className="bg"></div>
                             <div className="subtitle">
-                                Trang chủ -
+                                Trang chủ - 
                                 <span>Dịch vụ</span>
                             </div>
                             <div className="title">
@@ -18,8 +17,8 @@ export default class Services2 extends Component {
                                 <br/>
                                 VÀ XÂY DỰNG PHẦN MỀM THEO YÊU CẦU
                             </div>
-                            <div className="line"/>
-                            <div className="row"
+                            <div className="line-DV"/>
+                            <div className="row margin-0"
                                 style={
                                     {justifyContent: "center"}
                             }>
@@ -31,11 +30,13 @@ export default class Services2 extends Component {
                                                 GSOT sẽ viết cho riêng anh chị một Hệ thống phần mềm thông minh
                                                                 đáp ứng đầy đủ các yêu cầu của doanh nghiệp anh chị.
                                             </p>
+                                            <img className="arrowCard"
+                                            src={img.imggeihoang}/>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-3">
-                                    <div className="card card-bg box-shadow-gray">
+                                <div className="col-md-3 mt-15">
+                                    <div className="card box-shadow-green">
                                         <img className="card-img-top" src={img.img48} alt/>
                                         <div className="card-body">
                                             <p className="card-text">
@@ -43,17 +44,12 @@ export default class Services2 extends Component {
                                                                 đại. Dễ dàng kết nối với các thiết bị như: Máy chấm công, Máy in
                                                                 mã vạch...
                                             </p>
-                                            <img style={
-                                                    {
-                                                        height: 37,
-                                                        width: 37
-                                                    }
-                                                }
+                                            <img className="arrowCard"
                                                 src={img.imggeihoang}/>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-3">
+                                <div className="col-md-3 mt-15">
                                     <div className="card box-shadow-green">
                                         <img className="card-img-top" src={img.img49} alt/>
                                         <div className="card-body">
@@ -62,6 +58,8 @@ export default class Services2 extends Component {
                                                                 chính: Tích hợp toàn diện, dễ dàng sử dụng, phù hợp với doanh
                                                                 nghiệp Việt và chi phí hợp lý.
                                             </p>
+                                            <img className="arrowCard"
+                                            src={img.imggeihoang}/>
                                         </div>
                                     </div>
                                 </div>
@@ -73,13 +71,11 @@ export default class Services2 extends Component {
                                     XEM THÊM
                                 </button>
                             </p>
-                        </div>
                     </section>
                     <section className="IMG-GROUP">
-                        <div className="container">
                             <div className="img-group">
-                                <div className="row">
-                                    <div className="col-md-6 p-0">
+                                <div className="row" style={{margin: 0}}>
+                                    <div className="col-40 p-0">
                                         <div className="img1">
                                             <img src={img.imghoanggei1}/>
                                         </div>
@@ -87,29 +83,27 @@ export default class Services2 extends Component {
                                             <img src={img.imghoanggei2}/>
                                         </div>
                                     </div>
-                                    <div className="col-md-6 p-0">
+                                    <div className="col-60 p-0">
                                         <div className="img3">
                                             <img src={img.imghoanggei3}/>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </section>
-                    <section className="contact">
-                        <div className="container position-relative">
+                    <section className="contact position-relative">
                             <h3>ANH CHỊ HÃY NHẬP THÔNG TIN ĐỂ ĐƯỢC TƯ VẤN CỤ THỂ HƠN</h3>
                             <div className="form-row"
                                 style={
-                                    {justifyContent: "center"}
+                                    {justifyContent: "center",width: "875.51px",margin: 'auto'}
                             }>
-                                <div className="col-md-4 form-group">
+                                <div className="col-md-6 form-group padding-0" style={{paddingRight: '20px'}}>
                                     <input type="text" className="form-control" placeholder=" Họ tên"/>
                                     <input type="text" className="form-control" placeholder=" Địa chỉ"/>
                                     <input type="text" className="form-control" placeholder=" Điện thoại"/>
                                     <input type="text" className="form-control" placeholder=" Email"/>
                                 </div>
-                                <div className="col-md-4 form-group">
+                                <div className="col-md-6 form-group padding-0" style={{paddingLeft: "20px"}}>
                                     <textarea className="form-control"
                                         rows={3}
                                         placeholder=" Nội dung"
@@ -123,7 +117,6 @@ export default class Services2 extends Component {
                                     XEM THÊM
                                 </button>
                             </p>
-                        </div>
                     </section>
             </div>
         )
